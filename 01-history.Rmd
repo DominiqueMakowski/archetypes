@@ -1,0 +1,48 @@
+# History of Archetypism
+
+## Philosophical roots
+
+It is common to mention Plato's Idea as the origin or philosophical basis of the Archetypes.
+
+
+## Carl Jung (1875 - 1961)
+
+<!-- overview -->
+
+Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal, archaic patterns or images that derive from the collective unconscious, seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such*, the underlying forms from which emerge motives that he refers to as *archetypal images* (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
+
+In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Jung expanded the notion of archetypes to the physical world itself, suggesting that "psychoid" archetypes (the non-psychic aspect of the archetype), fundamental principles of matter and energy, are the mediators of the unus mundus.
+ 
+
+
+<!-- universal nature -->
+
+Critically, Jung's archetypes stem out of the *collective unconscious*, therefore forming a substratum common to all humanity.
+
+
+<!-- list -->
+
+Interstingly, while the archetypal images (the manifest motives) are usually the main focus of interest, it is important to note that Jung himself warned against such simplification. Such "definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited". Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – "the 'archaic remnants', which I call 'archetypes' or 'primordial images'" [@jung1964approaching].
+
+
+
+Other authors have attributed 12 different archetypal images to Jung, organized in three overarching categories, based on a fundamental driving force. These include:
+
+
+- The Ego Types
+    - The Innocent
+    - The Orphan
+    - The Hero
+    - The Caregiver
+- The Soul Types
+    - The Explorer
+    - The Rebel
+    - The Lover
+    - The Creator
+- The Self Types
+    - The Jester
+    - The Sage
+    - The Magician
+    - The Ruler
+
+However, 
