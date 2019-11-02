@@ -1,23 +1,11 @@
-# A Neurocognitive Perspective
+# A Scientific Archetypism
 
-Many archetypes theorists have adopted a bottom-up approach, from Jung itself, exploring various cultures, myths, religions or the depths of Human's psyche (using tools of pseudo-access such as psychoanalysis or hypnosis). The archetypist's role was then to assemble and integrate the interpretations that emerged from these observations, in a theory that could be applied to explain these observations.
+Many archetype theorists have adopted a bottom-up approach, from Jung itself, exploring various cultures, myths, religions or the depths of Human's psyche (using tools of pseudo-access such as psychoanalysis or hypnosis). The archetypist's role was then to assemble and integrate the interpretations that emerged from these observations, in a theory that could be applied to explain these observations.
 
 We will take the opposite approach. Based on scientific knowledge about evolution, biology and neuroscience, we will outline a plausible framework, that we will then test on observations.
-
-## Archtypes as Neurocognitive Invariants
-
 
 <!-- *archetypism* (the science of archetypes).  -->
 <!-- The goal of the archetypist is to study these and uncover their role in society or individuals -->
 
-contrary to Jung, these archetypes are not originating from some collective unconscious, but rather are created and maintained by the ontology of the individual, and patterns are crystilised out of the répétition and similarity accross individual ontologies (e.g., the presnece of a fatherly and a motherly figure, etc.)
 
-
-
-## Neurological Substrate
-
-Attempts have been made to map archetypes unto brain structures [@samuels2003jung]. For instance, @rossi1977cerebral suggested that one could locate the archetypes in the right cerebral hemisphere, based on the idea that the left hemisphe would be primarily verbal and associational, and the right primarily visuospatial and apperceptive. In light of the current neuroscientific data, these theories appear as nonsensical and naive.
-
-That being said, if archetypes are engrammed into the cognitive system, a biological basis has to exist. One potential answer is to reframe archetypism under the predictive coding framework. As such, archetypes could be seen as meta-priors.
-
-
+One of the main angle of attacks could be the practical value of generic archetype. Yes, a loving mother and a fearless father are common tropes in Human existence. What is the point of creating a whole pseudo-theory around them? A collateral question would be, do they (as concepts) have any direct influence over our lives?

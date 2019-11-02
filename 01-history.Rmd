@@ -1,9 +1,37 @@
-# History of Archetypism
+# History of Archetypes
 
 ## Philosophical roots
 
-It is common to mention Plato's Idea as the origin or philosophical basis of the Archetypes.
+It is common to mention Plato's Idea as the origin or philosophical basis for archetypes.
 
+## Tarot
+
+The *Major Arcana* consists of 22 cards:
+
+- The Magician
+- The High Priestess
+- The Empress
+- The Emperor
+- The Hierophant
+- The Lovers
+- The Chariot
+- Strength
+- The Hermit
+- Wheel of Fortune
+- Justice
+- The Hanged Man
+- Death
+- Temperance
+- The Devil
+- The Tower
+- The Star
+- The Moon
+- The Sun
+- Judgement
+- The World
+- The Fool. 
+
+Cards from The Magician to The World are numbered in Roman numerals from I to XXI, while The Fool is the only unnumbered card, sometimes placed at the beginning of the deck as 0, or at the end as XXII.
 
 ## Carl Jung (1875 - 1961)
 
@@ -14,24 +42,30 @@ Originally named "primordial images" (a term he borrowed from the historian of a
 In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Jung expanded the notion of archetypes to the physical world itself, suggesting that "psychoid" archetypes (the non-psychic aspect of the archetype), fundamental principles of matter and energy, are the mediators of the unus mundus.
  
 
-
 <!-- universal nature -->
 
-Critically, Jung's archetypes stem out of the *collective unconscious*, therefore forming a substratum common to all humanity.
+Critically, Jung's archetypes stem out of the *collective unconscious*, therefore forming a substratum common to all humanity. The collective unconscious is, in Jung's perspective, referred to as the knowledge and experiences that we share as a species. A reminiscent echo of information passed down through generations from the dawn of mankind, and even afore.
 
+<!-- Relationship with the psyche -->
+
+Jung also named "archetypes" what could be seen as parts of the psyche. In particular, he focused on five of such dimensions: 
+
+- The **Anima** and the **Animus** are the feminine and masculine aspects of our Psyche.
+- The **shadow** is the part of one's Self to which the conscious ego does not identify.
+- The **Persona** refers to the image that a person presents to the world. According to Jung, the Persona is "a kind of mask, designed on the one hand to make a definite impression upon others, and on the other to conceal the true nature of the individual".
+- The **Self** is the realised product of the integration of all conscious and unconscious aspects of our personality.
 
 <!-- list -->
 
 Interstingly, while the archetypal images (the manifest motives) are usually the main focus of interest, it is important to note that Jung himself warned against such simplification. Such "definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited". Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – "the 'archaic remnants', which I call 'archetypes' or 'primordial images'" [@jung1964approaching].
 
 
-
-Other authors have attributed 12 different archetypal images to Jung, organized in three overarching categories, based on a fundamental driving force. These include:
+Altough Jung himself did not create any "official" list, other authors have attributed 12 different archetypal images to Jung, organized in three overarching categories, based on a fundamental driving force. These include (**find reference**):
 
 
 - The Ego Types
     - The Innocent
-    - The Orphan
+    - The Orphan / Everyman
     - The Hero
     - The Caregiver
 - The Soul Types
@@ -45,4 +79,54 @@ Other authors have attributed 12 different archetypal images to Jung, organized 
     - The Magician
     - The Ruler
 
-However, 
+Jungian archetypes cannot be fully understood without taking into account his perspective on the structure of the psyche. Shadow, Persona, ...
+
+
+## Robert Moore (1942 - 2016)
+
+In "King Warrior Magician Lover", @moore1991king discuss the four primary masculine archetypes:
+
+- King
+- Warrior
+- Magician
+- Lover
+  
+To each one of these archetypes correspond an immature version: 
+
+- The Divine Child
+- The Hero
+- The Precocious Child
+- The Oedipal Child
+
+  
+In the same framework, feminine (altough not directly mentioned by the original authors) are:
+
+- Queen 
+- Mother
+- Wise woman
+- Lover
+
+## Margaret Mark and Carol Pearson
+
+The Hero and the Outlaw:
+ 
+- The Innocent
+- The Orphan
+- The Hero
+- The Caregiver
+- The Explorer
+- The Rebel
+- The Lover
+- The Creator
+- The Jester
+- The Sage
+- The Magician
+- The Ruler
+
+
+
+
+
+## Recent Developpments
+
+The coach Scott Jeffrey, after disguising random information as facts ("archetypes influence 99% of human behavior"), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger ("the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"). Such fined-grained perspectives, where archetypes can be anything, are arguably not about archetypes such as conceptualised in this book (as a matter, he defined them as "set pattern of behavior", which is very distinct from psychological protostructures).
