@@ -1,43 +1,22 @@
 # History of Archetypes
 
+**Warning: This is a work in progress, i.e., currently just a collection of unstructured information.**
+
+
+
 ## Philosophical roots
 
-It is common to mention Plato's Idea as the origin or philosophical basis for archetypes.
+It is common to mention Plato's Idea as the origin or philosophical basis for archetypes, mainly because of Carl Jung's supposed inspiration. 
 
-## Tarot
 
-The *Major Arcana* consists of 22 cards:
 
-- The Magician
-- The High Priestess
-- The Empress
-- The Emperor
-- The Hierophant
-- The Lovers
-- The Chariot
-- Strength
-- The Hermit
-- Wheel of Fortune
-- Justice
-- The Hanged Man
-- Death
-- Temperance
-- The Devil
-- The Tower
-- The Star
-- The Moon
-- The Sun
-- Judgement
-- The World
-- The Fool. 
 
-Cards from The Magician to The World are numbered in Roman numerals from I to XXI, while The Fool is the only unnumbered card, sometimes placed at the beginning of the deck as 0, or at the end as XXII.
 
 ## Carl Jung (1875 - 1961)
 
 <!-- overview -->
 
-Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal, archaic patterns or images that derive from the collective unconscious, seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such*, the underlying forms from which emerge motives that he refers to as *archetypal images* (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
+Jung is the one that gives to "achetypes" its *modern* (in that sense) meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal, archaic patterns or images that derive from the collective unconscious, seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such*, the underlying forms from which emerge motives that he refers to as *archetypal images* (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
 
 In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Jung expanded the notion of archetypes to the physical world itself, suggesting that "psychoid" archetypes (the non-psychic aspect of the archetype), fundamental principles of matter and energy, are the mediators of the unus mundus.
  
@@ -50,9 +29,9 @@ Critically, Jung's archetypes stem out of the *collective unconscious*, therefor
 
 Jung also named "archetypes" what could be seen as parts of the psyche. In particular, he focused on five of such dimensions: 
 
-- The **Anima** and the **Animus** are the feminine and masculine aspects of our Psyche.
+- The **Anima** and the **Animus** are the feminine and masculine aspects of our Psyche. He mentions four distinct levels of development for the Anima, corresponding to its formation and evolution during the lifetime of an individual. *Eve* is the first stage, where the anima emerges in the shape of the male's object of desire. She then becomes *Helen* (of Troy, who sailed away from his husband), an independent and intelligent woman. She achieves virtue in *Mary* (the purest figure in Christian tradition), and finally becomes *Sophia*, the Greek goddess of wisdom.
 - The **shadow** is the part of one's Self to which the conscious ego does not identify.
-- The **Persona** refers to the image that a person presents to the world. According to Jung, the Persona is "a kind of mask, designed on the one hand to make a definite impression upon others, and on the other to conceal the true nature of the individual".
+- The **Persona** refers to the image that a person presents to the world. According to Jung, the Persona is "a kind of mask, designed on the one hand to make a definite impression upon others, and on the other to conceal the true nature of the individual". It emerges from the amalgamation of what an individual wants to be, what he thinks he is, what other people think of him and what they want him to be.
 - The **Self** is the realised product of the integration of all conscious and unconscious aspects of our personality.
 
 <!-- list -->
@@ -60,26 +39,49 @@ Jung also named "archetypes" what could be seen as parts of the psyche. In parti
 Interstingly, while the archetypal images (the manifest motives) are usually the main focus of interest, it is important to note that Jung himself warned against such simplification. Such "definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited". Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – "the 'archaic remnants', which I call 'archetypes' or 'primordial images'" [@jung1964approaching].
 
 
-Altough Jung himself did not create any "official" list, other authors have attributed 12 different archetypal images to Jung, organized in three overarching categories, based on a fundamental driving force. These include (**find reference**):
+Describe the excellent work by @lequellec2013jung.
+
+## Archetypal Interpretation of the Tarot
+
+The first documented tarot packs were recorded between 1440 and 1450, and are likely to have entered Europe from Egypt in the late 14th century. The Tarot consists of 78 cards - 56 in the *Minor Arcana* and 22 in the *Major Arcana* (also known as the trump cards), which consists of the emblematic picture cards of a tarot deck. Although the tarot being a very old game, its interpretation as having a relationship with archetypes was kickstarted by Jung himself in [1933](https://marykgreer.com/2008/03/31/carl-jung-and-tarot/). "They are psychological images, symbols with which one plays, as the unconscious seems to play with its contents." The content on these cards, said Jung, "are sort of archetypal ideas, of a differentiated nature."
+
+```{r, echo = FALSE, fig.cap="The 22 cards in the Major Arcana of the 'Tarot de Marseilles'."}
+knitr::include_graphics("img/tarot.jpg")
+```
+
+The *Major Arcana* consists of 22 cards, numbered in Roman numerals from I to XXI, while The Fool is the only unnumbered card, sometimes placed at the beginning of the deck as 0, or at the end as XXII.
+
+I. The Magician\\
+II. The High Priestess\\
+III. The Empress\\
+IIII. The Emperor\\
+V. The Hierophant\\
+VI. The Lovers\\
+VII. The Chariot\\
+VIII. Strength\\
+VIIII. The Hermit\\
+X. Wheel of Fortune\\
+XI. Justice\\
+XII. The Hanged Man\\
+XIII. Death\\
+XIIII. Temperance\\
+XV. The Devil\\
+XVI. The Tower\\
+XVII. The Star\\
+XVIII. The Moon\\
+XVIIII. The Sun\\
+XX. Judgement\\
+XXI. The World\\
+XXII. The Fool\\
+
+It is understandable that the mysterious origin of the Tarot, the esoteric figures, and critically the symbolic details present in them created a fertile terrain for all kinds of interpretations. Attempts to map these figures to Jungian concepts has been numerous. For instance, the Fool, representing carefree ignorance, has been connected with the unrealised Self. He carries a closed bag, said to contain the tools that could allow him to achieve wholeness. On the other side, the World card (XXI), representing completion nad success, was connected to the Self realised, as it shows an individual floating amongst the clouds. His nudity can be interpreted as transparency and revelation. What was hidden before has now become known. The four animals present in the corners corresponds to the four elements in Christian symbolism, and are interpreted as evidence that the individual has harnessed the four elements present within Nature (being the fifth element). 
 
 
-- The Ego Types
-    - The Innocent
-    - The Orphan / Everyman
-    - The Hero
-    - The Caregiver
-- The Soul Types
-    - The Explorer
-    - The Rebel
-    - The Lover
-    - The Creator
-- The Self Types
-    - The Jester
-    - The Sage
-    - The Magician
-    - The Ruler
 
-Jungian archetypes cannot be fully understood without taking into account his perspective on the structure of the psyche. Shadow, Persona, ...
+## Joseph Campbell (1904 - 1987)
+
+In "The Hero with a Thousand Faces", @campbell1949hero, inspired by Jung, presents his theory of the mythological structure of the journey of the archetypal hero extracted by comparing myths from different regions of the world. He identifies common tropes or characters, such as the young hero, the wise old man or woman, the shape-shifting woman or man, and the shadowy antagonist, that he relates to archetypes. He suggests that such myths and stories have a narrative structure that mirrors or echoes the psychological structure of the mind, which is the reason of their power.
+
 
 
 ## Robert Moore (1942 - 2016)
@@ -106,12 +108,12 @@ In the same framework, feminine (altough not directly mentioned by the original 
 - Wise woman
 - Lover
 
-## Margaret Mark and Carol Pearson
+## Carol Pearson (1944 - Present)
 
-The Hero and the Outlaw:
+In "The Hero and the Outlaw", @mark2001hero discuss twelve archetypes:
  
 - The Innocent
-- The Orphan
+- The Orphan / Everyman
 - The Hero
 - The Caregiver
 - The Explorer
@@ -124,9 +126,27 @@ The Hero and the Outlaw:
 - The Ruler
 
 
+```{r, echo = FALSE, fig.cap="The 12 archetypes and the specific 'universal needs' that they address, grouped by their orientation (ego, order, freedom and social) and type (based on their 'driving source'): the diagonal archetypes (outline in black) correspond to the Self type, the vertical archetypes (outlined in white) to the Ego type, and the horizontal archetypes (outlined in grey) to the Soul type."}
+knitr::include_graphics("img/12archetypes.png")
+```
 
+This framework has been complexified, grouping these twelve archetypes into sets, for instance by classifying them into three types relative to their "driving source". For instance, the *Ego* type (Innocent, Orphan, Hero and Caregiver) is driven to fulfill ego-defined agendas and *mutatis mutandis* for the *Soul* (Explorer, Rebel, Lover and Creator) and *Self* (Jester, Sage, Magician and Ruler) types. 
+
+Additionally to the type, these archetypes can also be clustered according to their orientation on a two-dimensional plane with four cardinal points, which are *Ego* (leaving a mark on the world), *Order* (providing structure), *Freedom* (yearning for paradise) and *Social* (connecting to others), creating pairs of opposite (Social and Freedom being opposed to Ego Order, respectively).
+
+The type and the orientation are additive groupings. For example, the Caregiver, being of the Ego-type, is driven by the need to fulfill ego agendas, through meeting the needs of others (characterising its social orientation). In a different way, the Hero, also driven by the same need to fulfill ego agendas, does so through courageous action that proves self-worth (characteristing its ego orientation).
+
+Finally, each of these twelve archetypes is addressing a specific "universal Human need", namely *safety* (the Innocent), *belonging* (the Orphan), *mastery* (the Hero), *service* (the Caregiver), *freedom* (the Explorer), *liberation* (the Rebel), *intimacy* (the Lover), *innovation* (the Creator), *pleasure* (the Jester), *understanding* (the Sage), *power* (the Magician) and *control* (the Ruler).
+
+
+However, it is important to note that the framework proposed by @mark2001hero was initially created for "brands", to help new brands selling more products by identifying with specific archetypes (in order to, supposedly, directly communicate with the potential client's unconscious). This is followed by attempts to attribute to existing brands some of these archetypes. This is, in our humble opinion, quite non-sensical.
+
+
+```{r, echo = FALSE, out.width = "49%", fig.show='hold', fig.cap="Examples of association between existing brands and archetypes (retrieved from 'https://visionone.co.uk/app/uploads/brand-archetype-wheel.png' and 'https://www.retailmarketing.com/wp-content/uploads/2017/09/Pic2.png')."}
+knitr::include_graphics(c("img/brand_archetypes1.png", "img/brand_archetypes2.png"))
+```
 
 
 ## Recent Developpments
 
-The coach Scott Jeffrey, after disguising random information as facts ("archetypes influence 99% of human behavior"), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger ("the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"). Such fined-grained perspectives, where archetypes can be anything, are arguably not about archetypes such as conceptualised in this book (as a matter, he defined them as "set pattern of behavior", which is very distinct from psychological protostructures).
+The coach Scott Jeffrey, after disguising random information as facts ("archetypes influence 99% of human behavior"), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger ("the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"). Defining them as "set pattern of behavior", these fined-grained classifications are clearly different from archetypes as conceptualised in this book, i.e., as neuropsychological protostructures.

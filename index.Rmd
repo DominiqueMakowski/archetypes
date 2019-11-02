@@ -1,5 +1,5 @@
 --- 
-title: "Uncovering the Neurocognitive Archetypes"
+title: "Embrace the Serpent: A Neuroscientific Perspective on Archetypes"
 author: "Dr. Dominique Makowski"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -38,9 +38,23 @@ knitr::opts_chunk$set(echo = FALSE,
 
 # Introduction
 
-*Disclaimer: This is a compilation of thoughts that might be someday used in a fictional novel. **It does not reflect any personal beliefs.***
+---
+
+**Disclaimer: This is a compilation of thoughts that might be someday used in a fictional novel. It does not reflect any personal beliefs.**
+
 **Warning: This is a work in progress, i.e., currently just a collection of unstructured information.**
 
-The idea that the mind is deeply structured along universal lines has always been fascinating to me. Although strongly criticized, or simply debunked by science (along with the rest of Jungian psychology), the idea that the mind was structurally clustered in a similar way across the time and space has endured, quitting the prison of scientific psychology to pervade other fields such as history of arts, literature and anthropology. In fact, the notion of archetypes and archetypal patterns has never been so popular, evidence being "found" within the redundancies of Human behaviours, myths and stories of old.
+--- 
 
-But beyond the smell of pseudoscience that emanates from this concept, do archetypes make any scientific sense? The goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology and neuroscience. 
+
+The idea that the mind is deeply structured along universal lines has always been fascinating to me. Although strongly criticized and mostly debunked by science, the idea that the mind was structurally clustered in a similar way across the time and space has endured, quitting the prison of scientific psychology to pervade other fields, such as history of arts, literature and anthropology. In fact, the notion of archetypes and archetypal patterns has become quite popular, evidence being "found" within the redundancies of Human behaviours, myths and stories of old.
+
+**But beyond the scent of pseudoscience that emanates from this concept, do archetypes make any scientific sense?** 
+
+Archetypes as they are commonly defined and conceptualized are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment and functional and structural neuroanatomy. Similarly, research on personality does not support the existence of clusters, or profiles, that would resemble commonly described archetypal figures (such as the warrior, the hero, the wise old man, etc.). Nonetheless, I think (and hope), that a scientific approach is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology and neuroscience. 
+
+
+My own journey started as a naive interest for psychoanalysis in general, and a particular appeal for the deeply hidden core(s) of our being. But that fascination did not last. The first blow was given by the *black book of psychoanalysis* ["Le livre noir de la psychanalyse"; @borch2005livre], that superbly and elegantly shattered most of the psychodynamic approach to pieces. *Most of it* only, because Jung's "Depth Psychology" somehow resisted, keeping some level of appeal in the back of my mind. Possibly due to my shared interest for myths and history of religions, or to some other unconscious motivation, I found the Jungian mythological and cross-cultural perspective attractive (or at least interesting). But we need to face the serpent, and I could no longer ignore the evidence. And evidence is presented on a golden plate by @lequellec2013jung, in the excellent "Jung et les archétypes. Un mythe contemporain", casting doubt upon the whole Jungian enterprise. This second, finishing blow left me wondering; what is left of the archetypes in this landscape of burning ashes? 
+
+**As a phoenix, can this idea be reborn?**
+

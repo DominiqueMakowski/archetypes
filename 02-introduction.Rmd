@@ -1,5 +1,9 @@
 # A Scientific Archetypism
 
+**Warning: This is a work in progress, i.e., currently just a collection of unstructured information.**
+
+
+
 Many archetype theorists have adopted a bottom-up approach, from Jung itself, exploring various cultures, myths, religions or the depths of Human's psyche (using tools of pseudo-access such as psychoanalysis or hypnosis). The archetypist's role was then to assemble and integrate the interpretations that emerged from these observations, in a theory that could be applied to explain these observations.
 
 We will take the opposite approach. Based on scientific knowledge about evolution, biology and neuroscience, we will outline a plausible framework, that we will then test on observations.
