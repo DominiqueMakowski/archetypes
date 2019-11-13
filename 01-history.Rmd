@@ -1,29 +1,31 @@
 # History of Archetypes
 
-**Warning: This is a work in progress, i.e., currently just a collection of unstructured information.**
+***Warning:* This is a work in progress, i.e., currently just a collection of unstructured information.**
 
-
-
-## Philosophical roots
-
-It is common to mention Plato's Idea as the origin or philosophical basis for archetypes, mainly because of Carl Jung's supposed inspiration. 
-
-
-
-
+Archetypes, in their "psychological" definition (as related to the structure of the mind), were originally conceptualised by Carl Jung in the early 20th century. Thus, a meaningful history of archetypes should start there, altough deeper and earlier roots and sources of inspiration are often mentioned (for instance by Jung himself). Importantly, all these posterior re-interpretations and re-explorations of archetypes-related ideas before Jung are done through a Jungian lense. Hence, mastering the Jungian approach is necessary to understand the history and current state of archetypism.
 
 ## Carl Jung (1875 - 1961)
 
 <!-- overview -->
 
-Jung is the one that gives to "achetypes" its *modern* (in that sense) meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal, archaic patterns or images that derive from the collective unconscious, seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such*, the underlying forms from which emerge motives that he refers to as *archetypal images* (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
+The Swiss psychiatrist Carl Jung is the one that gave to "achetypes" its modern meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns or images that derive from the collective unconscious, seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such* and *archetypal images*, the former being the underlying forms from which emerge the latter (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
 
-In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Jung expanded the notion of archetypes to the physical world itself, suggesting that "psychoid" archetypes (the non-psychic aspect of the archetype), fundamental principles of matter and energy, are the mediators of the unus mundus.
- 
+```{r, echo = FALSE, fig.cap="Dr. Carl Jung (1875 - 1961)."}
+knitr::include_graphics("img/jung.jpg")
+```
+
+In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Through it, he expanded the notion of archetypes to the physical world itself, defining "psychoid" archetypes (the non-psychic aspect of the archetype) as fundamental principles of matter and energy, and mediators of the unus mundus.
+
 
 <!-- universal nature -->
 
-Critically, Jung's archetypes stem out of the *collective unconscious*, therefore forming a substratum common to all humanity. The collective unconscious is, in Jung's perspective, referred to as the knowledge and experiences that we share as a species. A reminiscent echo of information passed down through generations from the dawn of mankind, and even afore.
+Critically, Jung's archetypes stem out of the *collective unconscious*, therefore forming a psycholopgical layer common to all humanity. The collective unconscious is, in Jung's perspective, referred to as the knowledge and experiences that we share as a species, a reminiscent echo of information passed down through generations from before the dawn of mankind.
+
+ 
+```{r, echo = FALSE, fig.cap="Illustration created by Jung (The Red Book: Liber Novus, 2009)."}
+knitr::include_graphics("img/jung_red_book_serpent.jpg")
+```
+
 
 <!-- Relationship with the psyche -->
 
@@ -36,14 +38,20 @@ Jung also named "archetypes" what could be seen as parts of the psyche. In parti
 
 <!-- list -->
 
-Interstingly, while the archetypal images (the manifest motives) are usually the main focus of interest, it is important to note that Jung himself warned against such simplification. Such "definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited". Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – "the 'archaic remnants', which I call 'archetypes' or 'primordial images'" [@jung1964approaching].
+Interstingly, while the archetypal images (the manifest motives) are usually the main focus and interest of subsequent authors (see below), it is important to note that Jung himself warned against such simplification. Such "definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited". Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – "the 'archaic remnants', which I call 'archetypes' or 'primordial images'" [@jung1964approaching].
 
 
-Describe the excellent work by @lequellec2013jung.
+<!-- Describe the excellent work by @lequellec2013jung. -->
+
+
+## Philosophical roots
+
+It is common to mention Plato's Idea as the origin or philosophical basis for archetypes, mainly because of Carl Jung's supposed inspiration. 
+
 
 ## Archetypal Interpretation of the Tarot
 
-The first documented tarot packs were recorded between 1440 and 1450, and are likely to have entered Europe from Egypt in the late 14th century. The Tarot consists of 78 cards - 56 in the *Minor Arcana* and 22 in the *Major Arcana* (also known as the trump cards), which consists of the emblematic picture cards of a tarot deck. Although the tarot being a very old game, its interpretation as having a relationship with archetypes was kickstarted by Jung himself in [1933](https://marykgreer.com/2008/03/31/carl-jung-and-tarot/). "They are psychological images, symbols with which one plays, as the unconscious seems to play with its contents." The content on these cards, said Jung, "are sort of archetypal ideas, of a differentiated nature."
+The first documented tarot packs were recorded between 1440 and 1450, and are likely to have entered Europe from Egypt in the late 14th century. The Tarot consists of 78 cards - 56 in the *Minor Arcana* and 22 in the *Major Arcana* (also known as the trump cards), which consists of the emblematic picture cards of a tarot deck. Although the tarot being a very old game, its interpretation as having a relationship with archetypes was started by Jung himself in [1933](https://marykgreer.com/2008/03/31/carl-jung-and-tarot/). "They are psychological images, symbols with which one plays, as the unconscious seems to play with its contents." The content on these cards, said Jung, "are sort of archetypal ideas, of a differentiated nature."
 
 ```{r, echo = FALSE, fig.cap="The 22 cards in the Major Arcana of the 'Tarot de Marseilles'."}
 knitr::include_graphics("img/tarot.jpg")
@@ -74,7 +82,7 @@ XX. Judgement\\
 XXI. The World\\
 XXII. The Fool\\
 
-It is understandable that the mysterious origin of the Tarot, the esoteric figures, and critically the symbolic details present in them created a fertile terrain for all kinds of interpretations. Attempts to map these figures to Jungian concepts has been numerous. For instance, the Fool, representing carefree ignorance, has been connected with the unrealised Self. He carries a closed bag, said to contain the tools that could allow him to achieve wholeness. On the other side, the World card (XXI), representing completion nad success, was connected to the Self realised, as it shows an individual floating amongst the clouds. His nudity can be interpreted as transparency and revelation. What was hidden before has now become known. The four animals present in the corners corresponds to the four elements in Christian symbolism, and are interpreted as evidence that the individual has harnessed the four elements present within Nature (being the fifth element). 
+It is understandable that the mysterious origin of the Tarot, its esoteric figures, and critically the symbolic details present in them created a fertile terrain for all kinds of interpretations. Attempts to map these figures to Jungian concepts have been numerous. For instance, the Fool, interpreted as carefree ignorance, has been connected with the unrealised Self. He carries a closed bag, said to contain the tools that could allow him to achieve wholeness. On the other side, the World card (XXI), representing completion and success, has been related to the Self realised, as it shows an individual floating amongst the clouds. His nudity can be interpreted as transparency and revelation, where what was hidden before has now become known. The four animals present in the corners corresponds to the four elements in Christian symbolism, and are interpreted as evidence that the individual has harnessed the four elements present within Nature (being the fifth element). 
 
 
 
@@ -139,14 +147,14 @@ The type and the orientation are additive groupings. For example, the Caregiver,
 Finally, each of these twelve archetypes is addressing a specific "universal Human need", namely *safety* (the Innocent), *belonging* (the Orphan), *mastery* (the Hero), *service* (the Caregiver), *freedom* (the Explorer), *liberation* (the Rebel), *intimacy* (the Lover), *innovation* (the Creator), *pleasure* (the Jester), *understanding* (the Sage), *power* (the Magician) and *control* (the Ruler).
 
 
-However, it is important to note that the framework proposed by @mark2001hero was initially created for "brands", to help new brands selling more products by identifying with specific archetypes (in order to, supposedly, directly communicate with the potential client's unconscious). This is followed by attempts to attribute to existing brands some of these archetypes. This is, in our humble opinion, quite non-sensical.
+However, it is important to note that the framework proposed by @mark2001hero was initially created with companies in mind rather than individuals *per se*, to help new business developping their brand by increasing their identification with specific archetypes. This archetypal branding could facilitate, supposedly, directly communicating with the potential client's unconscious in order to sell more products. This is followed by attempts to attribute dominant archetypes to existing brands. This perspective and usage of archetypes is, in our humble opinion, quite non-sensical.
 
 
-```{r, echo = FALSE, out.width = "49%", fig.show='hold', fig.cap="Examples of association between existing brands and archetypes (retrieved from 'https://visionone.co.uk/app/uploads/brand-archetype-wheel.png' and 'https://www.retailmarketing.com/wp-content/uploads/2017/09/Pic2.png')."}
+```{r, echo = FALSE, out.width = "49%", fig.show='hold', fig.cap="Examples of association between existing brands and archetypes (retrieved from https://visionone.co.uk/app/uploads/brand-archetype-wheel.png and https://www.retailmarketing.com/wp-content/uploads/2017/09/Pic2.png)."}
 knitr::include_graphics(c("img/brand_archetypes1.png", "img/brand_archetypes2.png"))
 ```
 
 
-## Recent Developpments
+## Other Developpments
 
-The coach Scott Jeffrey, after disguising random information as facts ("archetypes influence 99% of human behavior"), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger ("the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"). Defining them as "set pattern of behavior", these fined-grained classifications are clearly different from archetypes as conceptualised in this book, i.e., as neuropsychological protostructures.
+The coach Scott Jeffrey, after disguising random information as facts ("archetypes influence 99% of human behavior"), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger ("the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"). Besides the uselessness of an infinitely fined-grained concept, these classifications (that the author defines himself as "set patterns of behavior") are clearly different from archetypes as conceptualised in this book.
