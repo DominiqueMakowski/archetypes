@@ -4,13 +4,16 @@
 
 Archetypes, in their "psychological" definition (as related to the structure of the mind), were originally conceptualised by Carl Jung in the early 20th century. Thus, a meaningful history of archetypes should start there, altough deeper and earlier roots and sources of inspiration are often mentioned (for instance by Jung himself). Importantly, all these posterior re-interpretations and re-explorations of archetypes-related ideas before Jung are done through a Jungian lense. Hence, mastering the Jungian approach is necessary to understand the history and current state of archetypism.
 
+
+
+
 ## Carl Jung (1875 - 1961)
 
 <!-- overview -->
 
 The Swiss psychiatrist Carl Jung is the one that gave to "achetypes" its modern meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns or images that derive from the collective unconscious, seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such* and *archetypal images*, the former being the underlying forms from which emerge the latter (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
 
-```{r, echo = FALSE, fig.cap="Dr. Carl Jung (1875 - 1961)."}
+```{r, echo = FALSE, fig.cap="Carl Jung (1875 - 1961)."}
 knitr::include_graphics("img/jung.jpg")
 ```
 
@@ -47,6 +50,12 @@ Interstingly, while the archetypal images (the manifest motives) are usually the
 ## Philosophical roots
 
 It is common to mention Plato's Idea as the origin or philosophical basis for archetypes, mainly because of Carl Jung's supposed inspiration. 
+
+Pre-Jungian Usages of the Word:
+
+- Plato's idea theory
+- segue into Christian philosophy
+- Descartes (?)
 
 
 ## Archetypal Interpretation of the Tarot
@@ -158,3 +167,8 @@ knitr::include_graphics(c("img/brand_archetypes1.png", "img/brand_archetypes2.pn
 ## Other Developpments
 
 The coach Scott Jeffrey, after disguising random information as facts ("archetypes influence 99% of human behavior"), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger ("the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"). Besides the uselessness of an infinitely fined-grained concept, these classifications (that the author defines himself as "set patterns of behavior") are clearly different from archetypes as conceptualised in this book.
+
+
+```{r, echo = FALSE, fig.cap="The 12 female archetypes described by Lucie René, supposedly 'handed down from the Matrilineal Era' but later 'fractured, polarized, and corrupted during the Patriarchy' (retrieved from https://luciarene.com/pdfs/Archetype-Diagram.pdf)."}
+knitr::include_graphics("img/female_archetypes.jpg")
+```

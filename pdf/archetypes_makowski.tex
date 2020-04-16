@@ -1,36 +1,60 @@
-\documentclass[]{book}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[
+]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage{hyperref}
-\hypersetup{unicode=true,
-            pdftitle={The Serpent and the Brain: A Neuroscientific Perspective on Archetypes},
-            pdfauthor={Dr.~Dominique Makowski},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{natbib}
-\bibliographystyle{apalike}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={The Serpent in the Brain: A Neuroscientific Perspective on Archetypes},
+  pdfauthor={Dr.~Dominique Makowski},
+  colorlinks=true,
+  linkcolor=Maroon,
+  filecolor=Maroon,
+  citecolor=Blue,
+  urlcolor=Blue,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -40,52 +64,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-%%% Use protect on footnotes to avoid problems with footnotes in titles
-\let\rmarkdownfootnote\footnote%
-\def\footnote{\protect\rmarkdownfootnote}
-
-%%% Change title format to be more compact
-\usepackage{titling}
-
-% Create subtitle command for use in maketitle
-\providecommand{\subtitle}[1]{
-  \posttitle{
-    \begin{center}\large#1\end{center}
-    }
-}
-
-\setlength{\droptitle}{-2em}
-
-  \title{The Serpent and the Brain: A Neuroscientific Perspective on Archetypes}
-    \pretitle{\vspace{\droptitle}\centering\huge}
-  \posttitle{\par}
-    \author{Dr.~Dominique Makowski}
-    \preauthor{\centering\large\emph}
-  \postauthor{\par}
-      \predate{\centering\large\emph}
-  \postdate{\par}
-    \date{2019-11-13}
-
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -94,30 +80,50 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\let\oldmaketitle\maketitle
+\AtBeginDocument{\let\maketitle\relax}
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{The Serpent in the Brain: A Neuroscientific Perspective on Archetypes}
+\author{Dr.~Dominique Makowski}
+\date{2020-04-16}
 
 \begin{document}
 \maketitle
 
+\thispagestyle{empty}
+\begin{center}
+\includegraphics{img/cover.png}
+\end{center}
+
+\let\maketitle\oldmaketitle
+\maketitle
+
 {
+\hypersetup{linkcolor=}
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{introduction}{%
-\chapter{Introduction}\label{introduction}}
+\listoftables
+\listoffigures
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
 
 \textbf{\emph{Disclaimer:} This is a compilation of thoughts that might be someday used in a fictional novel. It does \emph{not} reflect any personal beliefs.}
 
 \textbf{\emph{Warning:} This is a work in progress, being currently just a collection of unstructured information.}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 The idea that the mind is deeply organized along universal lines has always been fascinating to me. Although strongly criticized and mostly debunked by science, the notion that cognition is structurally clustered in a similar way across time and space has endured, gradually leaving the prison of scientific psychology to pervade other fields, such as history of arts, literature and anthropology. In fact, the notion of archetypes has become quite popular in the recent years, evidence being ``found'' within the redundancies of Human behaviours, myths and stories of old. In turn, understanding and acknowledging the existence of archetypes is often presented as a step toward personal development, if not mental health.
 
 \textbf{But beyond the scent of pseudo-science that emanates from this concept, do archetypes make any scientific sense?}
 
-Archetypes, as they are commonly defined and conceptualized (i.e., with a Jungian-based psychodynamic approach), are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment, and functional or structural neuroanatomy. Similarly, research on personality and psychological inter-individual differences does not support the existence of profiles that would resemble commonly described archetypal figures (for example the warrior, the hero or the wise old man). Nonetheless, I think (and hope), that a scientific approach to archetypism (the study of psychological archetypes) is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology and neuroscience.
+Archetypes, as they are commonly defined and conceptualized (i.e., with a Jungian-based psychodynamic approach), are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment, and functional or structural neuroanatomy. Similarly, research on personality and psychological inter-individual differences does not support the existence of profiles that would resemble commonly described archetypal figures (for example the warrior, the hero or the wise old man). Nonetheless, I think (and hope), that a scientific approach to archetypism (the study of psychological archetypes) is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology, and neuroscience.
 
-My own journey started as a naive interest for psychoanalysis in general, and a particular appeal for the deeply hidden core(s) of our being. But that original appeal did not last very long. The first blow was given by the \emph{black book of psychoanalysis} \citep[``Le livre noir de la psychanalyse'';][]{borch2005livre}, that superbly and elegantly exposes and deconstructs most of the psychodynamic approach. And yet, my disillusionment was not complete, as Jung's ``Depth Psychology'' somehow resisted and maintained some level of magnetism in the back of my mind. Indeed, possibly related to my shared interest for myths and history of religions, or to some other unconscious motivation, I found Jungian mythological and cross-cultural perspective attractive (or, at least, interesting). But as my knowledge grew, I could no longer ignore the evidence. And evidence is presented on a golden plate through the excellent book titled ``Jung et les archétypes. Un mythe contemporain''. In this work, \citet{lequellec2013jung} casts doubt (if not fire) upon the whole Jungian enterprise. There I was, with this second, finishing blow, cured from all psychodynamic non-sense. And it left me wondering; what is left of the archetypes in this landscape of burning ashes?
+My own journey started as a naive interest for psychoanalysis in general, and a particular appeal for the deeply hidden core(s) of our being. But that original appeal did not last very long. The first blow was given by the \emph{black book of psychoanalysis} \citep[``Le livre noir de la psychanalyse'';][]{borch2005livre}, that superbly and elegantly exposes and deconstructs most of the psychodynamic approach. And yet, my disillusionment was not complete, as Jung's ``Depth Psychology'' somehow resisted and maintained some level of magnetism in the back of my mind. Indeed, possibly related to my shared interest for myths and history of religions, or to some other unconscious motivation, I found Jungian mythological and cross-cultural perspective attractive (or, at least, interesting). But as my knowledge grew, I could no longer ignore the evidence. And the evidence is presented on a golden plate through the excellent book titled ``Jung et les archétypes. Un mythe contemporain'', in which \citet{lequellec2013jung} casts doubt (if not fire) upon the whole Jungian enterprise. Reading it finally cured from all psychodynamic non-sense. But it left me wondering; what is left of the archetypes in this landscape of burning ashes?
 
 \textbf{As a phoenix, can this idea be reborn?}
 
@@ -127,7 +133,7 @@ My own journey started as a naive interest for psychoanalysis in general, and a 
 
 }
 
-\caption{Phoenix illumination from the Aberdeen Bestiary (12th century).}\label{fig:unnamed-chunk-2}
+\caption{Phoenix illumination from the Aberdeen Bestiary (12th century).}\label{fig:unnamed-chunk-5}
 \end{figure}
 
 \hypertarget{history-of-archetypes}{%
@@ -148,7 +154,7 @@ The Swiss psychiatrist Carl Jung is the one that gave to ``achetypes'' its moder
 
 }
 
-\caption{Dr. Carl Jung (1875 - 1961).}\label{fig:unnamed-chunk-3}
+\caption{Carl Jung (1875 - 1961).}\label{fig:unnamed-chunk-6}
 \end{figure}
 
 In his later life, inspired by oriental philosophies, Jung used the term \emph{unus mundus} to describe the unitary reality which underlay all manifest phenomena. Through it, he expanded the notion of archetypes to the physical world itself, defining ``psychoid'' archetypes (the non-psychic aspect of the archetype) as fundamental principles of matter and energy, and mediators of the unus mundus.
@@ -161,7 +167,7 @@ Critically, Jung's archetypes stem out of the \emph{collective unconscious}, the
 
 }
 
-\caption{Illustration created by Jung (The Red Book: Liber Novus, 2009).}\label{fig:unnamed-chunk-4}
+\caption{Illustration created by Jung (The Red Book: Liber Novus, 2009).}\label{fig:unnamed-chunk-7}
 \end{figure}
 
 Jung also named ``archetypes'' what could be seen as parts of the psyche. In particular, he focused on five of such dimensions:
@@ -185,6 +191,18 @@ Interstingly, while the archetypal images (the manifest motives) are usually the
 
 It is common to mention Plato's Idea as the origin or philosophical basis for archetypes, mainly because of Carl Jung's supposed inspiration.
 
+Pre-Jungian Usages of the Word:
+
+\begin{itemize}
+\tightlist
+\item
+  Plato's idea theory
+\item
+  segue into Christian philosophy
+\item
+  Descartes (?)
+\end{itemize}
+
 \hypertarget{archetypal-interpretation-of-the-tarot}{%
 \section{Archetypal Interpretation of the Tarot}\label{archetypal-interpretation-of-the-tarot}}
 
@@ -196,7 +214,7 @@ The first documented tarot packs were recorded between 1440 and 1450, and are li
 
 }
 
-\caption{The 22 cards in the Major Arcana of the 'Tarot de Marseilles'.}\label{fig:unnamed-chunk-5}
+\caption{The 22 cards in the Major Arcana of the 'Tarot de Marseilles'.}\label{fig:unnamed-chunk-8}
 \end{figure}
 
 The \emph{Major Arcana} consists of 22 cards, numbered in Roman numerals from I to XXI, while The Fool is the only unnumbered card, sometimes placed at the beginning of the deck as 0, or at the end as XXII.
@@ -315,7 +333,7 @@ In ``The Hero and the Outlaw'', \citet{mark2001hero} discuss twelve archetypes:
 
 }
 
-\caption{The 12 archetypes and the specific 'universal needs' that they address, grouped by their orientation (ego, order, freedom and social) and type (based on their 'driving source'): the diagonal archetypes (outline in black) correspond to the Self type, the vertical archetypes (outlined in white) to the Ego type, and the horizontal archetypes (outlined in grey) to the Soul type.}\label{fig:unnamed-chunk-6}
+\caption{The 12 archetypes and the specific 'universal needs' that they address, grouped by their orientation (ego, order, freedom and social) and type (based on their 'driving source'): the diagonal archetypes (outline in black) correspond to the Self type, the vertical archetypes (outlined in white) to the Ego type, and the horizontal archetypes (outlined in grey) to the Soul type.}\label{fig:unnamed-chunk-9}
 \end{figure}
 
 This framework has been complexified, grouping these twelve archetypes into sets, for instance by classifying them into three types relative to their ``driving source''. For instance, the \emph{Ego} type (Innocent, Orphan, Hero and Caregiver) is driven to fulfill ego-defined agendas and \emph{mutatis mutandis} for the \emph{Soul} (Explorer, Rebel, Lover and Creator) and \emph{Self} (Jester, Sage, Magician and Ruler) types.
@@ -334,13 +352,22 @@ However, it is important to note that the framework proposed by \citet{mark2001h
 
 }
 
-\caption{Examples of association between existing brands and archetypes (retrieved from https://visionone.co.uk/app/uploads/brand-archetype-wheel.png and https://www.retailmarketing.com/wp-content/uploads/2017/09/Pic2.png).}\label{fig:unnamed-chunk-7}
+\caption{Examples of association between existing brands and archetypes (retrieved from https://visionone.co.uk/app/uploads/brand-archetype-wheel.png and https://www.retailmarketing.com/wp-content/uploads/2017/09/Pic2.png).}\label{fig:unnamed-chunk-10}
 \end{figure}
 
 \hypertarget{other-developpments}{%
 \section{Other Developpments}\label{other-developpments}}
 
 The coach Scott Jeffrey, after disguising random information as facts (``archetypes influence 99\% of human behavior''), ends up with a list of \href{https://scottjeffrey.com/archetypes-list/}{over 325} archetypes (!), suggesting that their number is even larger (``the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties''). Besides the uselessness of an infinitely fined-grained concept, these classifications (that the author defines himself as ``set patterns of behavior'') are clearly different from archetypes as conceptualised in this book.
+
+\begin{figure}
+
+{\centering \includegraphics[width=\textwidth]{img/female_archetypes} 
+
+}
+
+\caption{The 12 female archetypes described by Lucie René, supposedly 'handed down from the Matrilineal Era' but later 'fractured, polarized, and corrupted during the Patriarchy' (retrieved from https://luciarene.com/pdfs/Archetype-Diagram.pdf).}\label{fig:unnamed-chunk-11}
+\end{figure}
 
 \hypertarget{a-scientific-archetypism}{%
 \chapter{A Scientific Archetypism}\label{a-scientific-archetypism}}
@@ -367,7 +394,7 @@ This pseudoscientific nature is particularly relevant for the Jungian conceptual
 
 }
 
-\caption{The oldest evident depictions of an ouroboros to date, appearing on the second gilded shrine of Tutankhamun (14th century BC).}\label{fig:unnamed-chunk-8}
+\caption{The oldest evident depictions of an ouroboros to date, appearing on the second gilded shrine of Tutankhamun (14th century BC).}\label{fig:unnamed-chunk-12}
 \end{figure}
 
 Therefore, how to scientifically test (and refute) archetypism is the core question of any scientific approach to archetypism. Thus, after outlining our perspective on archetypes in the following chapters, we will propose practical ways to assess their existence and role in societyand individuals.
@@ -399,6 +426,10 @@ Archetypes are neither collective \emph{per se}. They do not emanate or emerge f
 \section{Essentialisation}\label{essentialisation}}
 
 Essentialisation is the core mechanism underlying the existence and creation of archetypes. Essentialisation is in general achieved either through biomorphism (in particular, anthropomorphism), giving Human or animal-like aspect to objects, or symbolification, reducing a concept to a (usually visual) symbol. The mode of essentialisation might depend on cognitive abilities (abstraction / imagery abilities) and environment (prevalence of natural or abstract objects).
+
+archetype primaire (innés) = génétique, adaptive
+archétype secondaire (activés) = activés par l'expérience precoces (sur un modèle epigenetique)
+archétype tertiaires (créés) : crée et entrenues par la culture
 
 \hypertarget{the-main-archetypes}{%
 \chapter{The Main Archetypes}\label{the-main-archetypes}}
@@ -439,7 +470,7 @@ A secondary axis could be the real vs.~the unreal.
 
 }
 
-\caption{The Primordial Axis.}\label{fig:unnamed-chunk-9}
+\caption{The Primordial Axis.}\label{fig:unnamed-chunk-13}
 \end{figure}
 
 \hypertarget{known-vs.-unknown}{%
@@ -482,7 +513,7 @@ The artist is the integration of the feminine creation with the masculine transc
 
 }
 
-\caption{The main archetypes and their hierarchical structure.}\label{fig:unnamed-chunk-10}
+\caption{The main archetypes and their hierarchical structure.}\label{fig:unnamed-chunk-14}
 \end{figure}
 
 \hypertarget{the-serpent}{%
@@ -505,13 +536,20 @@ Idea that everybody has a ``shadow'', a collection of morally reprehensible desi
 
 The archetypal framework developped in this book is by essence reductionist, exploring the abstract core features of cognition and essentializing them to concepts of pure abstraction. As such, archetypes do not directly relate to individual psychology, nor to anything tangible.
 
+\hypertarget{archetypes-as-the-self}{%
+\section{Archetypes as the Self}\label{archetypes-as-the-self}}
+
+The serpent is as the Self. Always changing, but always the same.
+
+\hypertarget{archetypes-as-personality-clusters}{%
+\section{Archetypes as Personality Clusters}\label{archetypes-as-personality-clusters}}
+
 \hypertarget{archetypes-as-heuristics}{%
 \section{Archetypes as Heuristics}\label{archetypes-as-heuristics}}
 
-One could define an archetype is a basic frame facilitating a basic, instinctive, and intuitive understanding of a concept or a personality. This definition brings it close to a key concept in psychology, heuristics.
+A more process-based and fluid framework.
 
-\hypertarget{relationship-with-personality}{%
-\section{Relationship with Personality}\label{relationship-with-personality}}
+One could define an archetype is a basic frame facilitating a basic, instinctive, and intuitive understanding of a concept or a personality. This definition brings it close to a key concept in psychology, heuristics.
 
 \hypertarget{archetypes-and-the-brain}{%
 \chapter{Archetypes and the Brain}\label{archetypes-and-the-brain}}
@@ -567,7 +605,6 @@ Common motives in religions and myths beg the question of the existence or plaus
 \hypertarget{classical-elements}{%
 \section{Classical Elements}\label{classical-elements}}
 
-\bibliography{book.bib,packages.bib}
-
+  \bibliography{book.bib,packages.bib}
 
 \end{document}

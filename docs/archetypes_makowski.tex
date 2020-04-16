@@ -1,36 +1,55 @@
-\documentclass[]{book}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage{hyperref}
-\hypersetup{unicode=true,
-            pdftitle={The Serpent and the Brain: A Neuroscientific Perspective on Archetypes},
-            pdfauthor={Dr.~Dominique Makowski},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{natbib}
-\bibliographystyle{apalike}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={The Serpent in the Brain: A Neuroscientific Perspective on Archetypes},
+  pdfauthor={Dr.~Dominique Makowski},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -40,52 +59,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-%%% Use protect on footnotes to avoid problems with footnotes in titles
-\let\rmarkdownfootnote\footnote%
-\def\footnote{\protect\rmarkdownfootnote}
-
-%%% Change title format to be more compact
-\usepackage{titling}
-
-% Create subtitle command for use in maketitle
-\providecommand{\subtitle}[1]{
-  \posttitle{
-    \begin{center}\large#1\end{center}
-    }
-}
-
-\setlength{\droptitle}{-2em}
-
-  \title{The Serpent and the Brain: A Neuroscientific Perspective on Archetypes}
-    \pretitle{\vspace{\droptitle}\centering\huge}
-  \posttitle{\par}
-    \author{Dr.~Dominique Makowski}
-    \preauthor{\centering\large\emph}
-  \postauthor{\par}
-      \predate{\centering\large\emph}
-  \postdate{\par}
-    \date{2019-11-13}
-
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -94,6 +75,12 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{The Serpent in the Brain: A Neuroscientific Perspective on Archetypes}
+\author{Dr.~Dominique Makowski}
+\date{2020-04-16}
 
 \begin{document}
 \maketitle
@@ -105,7 +92,30 @@
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
-Placeholder
+\textbf{\emph{Disclaimer:} This is a compilation of thoughts that might be someday used in a fictional novel. It does \emph{not} reflect any personal beliefs.}
+
+\textbf{\emph{Warning:} This is a work in progress, being currently just a collection of unstructured information.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+The idea that the mind is deeply organized along universal lines has always been fascinating to me. Although strongly criticized and mostly debunked by science, the notion that cognition is structurally clustered in a similar way across time and space has endured, gradually leaving the prison of scientific psychology to pervade other fields, such as history of arts, literature and anthropology. In fact, the notion of archetypes has become quite popular in the recent years, evidence being ``found'' within the redundancies of Human behaviours, myths and stories of old. In turn, understanding and acknowledging the existence of archetypes is often presented as a step toward personal development, if not mental health.
+
+\textbf{But beyond the scent of pseudo-science that emanates from this concept, do archetypes make any scientific sense?}
+
+Archetypes, as they are commonly defined and conceptualized (i.e., with a Jungian-based psychodynamic approach), are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment, and functional or structural neuroanatomy. Similarly, research on personality and psychological inter-individual differences does not support the existence of profiles that would resemble commonly described archetypal figures (for example the warrior, the hero or the wise old man). Nonetheless, I think (and hope), that a scientific approach to archetypism (the study of psychological archetypes) is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology, and neuroscience.
+
+My own journey started as a naive interest for psychoanalysis in general, and a particular appeal for the deeply hidden core(s) of our being. But that original appeal did not last very long. The first blow was given by the \emph{black book of psychoanalysis} \citep[``Le livre noir de la psychanalyse'';][]{borch2005livre}, that superbly and elegantly exposes and deconstructs most of the psychodynamic approach. And yet, my disillusionment was not complete, as Jung's ``Depth Psychology'' somehow resisted and maintained some level of magnetism in the back of my mind. Indeed, possibly related to my shared interest for myths and history of religions, or to some other unconscious motivation, I found Jungian mythological and cross-cultural perspective attractive (or, at least, interesting). But as my knowledge grew, I could no longer ignore the evidence. And the evidence is presented on a golden plate through the excellent book titled ``Jung et les archétypes. Un mythe contemporain'', in which \citet{lequellec2013jung} casts doubt (if not fire) upon the whole Jungian enterprise. Reading it finally cured from all psychodynamic non-sense. But it left me wondering; what is left of the archetypes in this landscape of burning ashes?
+
+\textbf{As a phoenix, can this idea be reborn?}
+
+\begin{figure}
+
+{\centering \includegraphics[width=\textwidth]{img/phoenix_aberdeen_bestiary} 
+
+}
+
+\caption{Phoenix illumination from the Aberdeen Bestiary (12th century).}\label{fig:unnamed-chunk-3}
+\end{figure}
 
 \hypertarget{history-of-archetypes}{%
 \chapter{History of Archetypes}\label{history-of-archetypes}}
@@ -136,61 +146,41 @@ Placeholder
 \hypertarget{a-scientific-archetypism}{%
 \chapter{A Scientific Archetypism}\label{a-scientific-archetypism}}
 
-\textbf{\emph{Warning:} This is a work in progress, i.e., currently just a collection of unstructured information.}
+Placeholder
 
 \hypertarget{from-theory-to-application}{%
 \section{From Theory to Application}\label{from-theory-to-application}}
 
-Following Jung's work, many archetype theorists have adopted a ``bottom-up approach'', i.e., starting from observations to infer the cause (the nature of archetypes). Observations are gathered by exploring various cultures, myths, religions or the depths of Human's psyche (using tools of pseudo-access such as psychoanalysis or hypnosis). In this framework, the archetypist's role is to assemble and integrate the interpretations emerging from these observations, in a theory that could be applied to explain these observations.
-
-In this book, we will take the opposite approach. Based on scientific knowledge about evolution, biology and neuroscience, we will outline a plausible framework, that we will then test on observations and facts.
-
 \hypertarget{a-falsifiable-theory}{%
 \section{A Falsifiable Theory}\label{a-falsifiable-theory}}
 
-The fundamental issue of psychoanalysis is that it is not a scientific theory, which requires a possibility of falsification. For example, Newton's law of gravity could easily be falsified if, for instance, the apple did not fall from the tree but levitated there (and it has been later falsified by astronomical observations, and eventually replaced, by Einstein's set of theories). On the contrary, every observation is evidence in favour of psychoanalysis, and the same can unfortunately be said for Jungian's approach.
-
-This pseudoscientific nature is particularly relevant for the Jungian conceptualisation of archetypes, which suffers from a structural and inherent unscientificalness. In metaphorical terms, we could say that it is an \emph{ouroboros} (the symbol of a dragon/serpent eating its own tail): the natural ``consequences'' of archetypes (i.e., the manifest patterns and motifs that we observe in myths, stories, religions\ldots) are also, in theory, the ``cause'' of them. In other words, the existence of numerous instances of wise old men is brandished as the one of the only possible manifest proof for the existence of the archetype of the wise old man. And the redundancy of this motif is also what perpetuates its archetypal nature. The serpent eats itself, and the existence of this archetype, as it is tied only to a given existing observation, is unfalsifiable. On an abstract level, if \emph{B} is the cause of \emph{C}, usually scientists would investigate the cause(s) and origin(s) of \emph{B}, \emph{A}, so that \emph{A} → \emph{B} → \emph{C}.
-
-\begin{figure}
-\includegraphics[width=0.49\linewidth]{img/ouroboros_tutankhumon} \caption{The oldest clear depictions of an ouroboros, appearing on the second gilded shrine of Tutankhamun (14th century BC).}\label{fig:unnamed-chunk-1}
-\end{figure}
-
-How to scientifically test (and refute) archetypism?
-
-Examples of experiments:
-
-\begin{itemize}
-\tightlist
-\item
-  Child remembers a story and its content where the protagnositc are congruent with archetypes?
-\item
-  Pseudo-role playing game where participanats have to decide which archetypal character to go ask for specific archetypical questions
-\item
-  Comparative exploration of proto-religions
-\end{itemize}
-
 \hypertarget{limitations}{%
 \section{Limitations}\label{limitations}}
-
-Two issues:
-- Some data is already known
-- Already inspired by existing data
-
-One of the main angle of attacks could be the practical value of generic archetype. Yes, a loving mother and a fearless father are common tropes in Human existence. What is the point of creating a whole pseudo-theory around them? A collateral question would be, do they (as concepts) have any direct influence over our lives?
 
 \hypertarget{definition}{%
 \chapter{Definition}\label{definition}}
 
 \textbf{\emph{Warning:} This is a work in progress, i.e., currently just a collection of unstructured information.}
 
-Archetypes are the personification of fundamental lines that structure the psychological system, creating layers of opposed poles tied to important concepts for adaptation and survial. Archetypes are not collective \emph{per se}. They are deeply individual, and their recurrence is merely a reflection of the ontogenical and evolutionary redundancies.
+\hypertarget{what-are-archetypes}{%
+\section{What are Archetypes?}\label{what-are-archetypes}}
 
-The main archetypes discussed in this chapter reffered to as ``axial archetypes'', as they emerge from to the axes that structure our mental system. As this system grows and complexifies, its dimensionality increases, creating new planes and providing more coordinates to navigate in this space. As a result of the densification of this matrix, archetypes become more subtler, fine-grained and ultimately fading into the unicity that is characterising our identity.
+We define archetypes as the product of the essentialisation of the space created by the fundamental axes that structure a cognitive system. These axes create layers of opposed poles that are tied to important concepts for adaptation and survival. For example, one possible axis would give rise to the concepts (the centroids of the spaces created by this axis) of life and death, a distinction arguably critical to Humans. In this example, the process of archetypalisation would essentialise these spaces (or proto-concepts), for instance to features or symbols (e.g., the tree, the heart, the skull).
 
-Thus, archetypes are usually paired (as they are the two spaces created separated by a line), creating a symmetric and hierarchical structure. Importantly, they can be identified, and grouped, relative to their causing axis, which is often an important distinction that the organism has to learn in order to adapt.
+But these examples are not necessarily ``true'' archetypes. Indeed, compared to other results of essentialisation, true archetypes present some specific characteristics. Their ontogenic origin can be traced to the early stages of development (roughly equivalent to children in Humans). They are usually primitive (or ``raw''), in the sense that they require minimal cognitive ability to be created. They are efficient, encapsulating and conveying complex meaning in the most effective form. They are important for adaptation and survival, allowing for the easy integration of important notions. They are meta-stable relative to a given spatio-temporal context, meaning that individuals growing in a similar environment (without necessarily communicating between them) should exhibit similar forms of archetypes (as these are essentialised in relation to the interaction between an individual and its environment).
 
-Thus, evidence for archetypes can be indirectly gathered by demonstrating the existence and relevance of their axis of reference.
+As a consequence, archetypes (in our definition) are not universal and can present variations in their presentations depending on the geographical and temporal context. Nevertheless, the proto-concepts that they are attached to might be similar. For example, the essentialisation of the concept of life and death might manifest under different forms: a society were a given animal is the main cause of death may use it as its symbol, compared to another society in which death is best exemplified through something else. That being said, a society where death does not exist (in which the life and death distinction is useless) might not display any (pseudo)archetype for it.
+
+Archetypes are neither collective \emph{per se}. They do not emanate or emerge from some shared memories or history, other than the similarities of our lives. They are deeply and inherently individual, and their collective aspect (as they are usually shared within a given culture) is merely a reflection of the ontogenic and evolutionary redundancies.
+
+\hypertarget{essentialisation}{%
+\section{Essentialisation}\label{essentialisation}}
+
+Essentialisation is the core mechanism underlying the existence and creation of archetypes. Essentialisation is in general achieved either through biomorphism (in particular, anthropomorphism), giving Human or animal-like aspect to objects, or symbolification, reducing a concept to a (usually visual) symbol. The mode of essentialisation might depend on cognitive abilities (abstraction / imagery abilities) and environment (prevalence of natural or abstract objects).
+
+archetype primaire (innés) = génétique, adaptive
+archétype secondaire (activés) = activés par l'expérience precoces (sur un modèle epigenetique)
+archétype tertiaires (créés) : crée et entrenues par la culture
 
 \hypertarget{the-main-archetypes}{%
 \chapter{The Main Archetypes}\label{the-main-archetypes}}
@@ -234,20 +224,27 @@ Placeholder
 
 The archetypal framework developped in this book is by essence reductionist, exploring the abstract core features of cognition and essentializing them to concepts of pure abstraction. As such, archetypes do not directly relate to individual psychology, nor to anything tangible.
 
+\hypertarget{archetypes-as-the-self}{%
+\section{Archetypes as the Self}\label{archetypes-as-the-self}}
+
+The serpent is as the Self. Always changing, but always the same.
+
+\hypertarget{archetypes-as-personality-clusters}{%
+\section{Archetypes as Personality Clusters}\label{archetypes-as-personality-clusters}}
+
 \hypertarget{archetypes-as-heuristics}{%
 \section{Archetypes as Heuristics}\label{archetypes-as-heuristics}}
 
-One could define an archetype is a basic frame facilitating a basic, instinctive, and intuitive understanding of a concept or a personality. This definition brings it close to a key concept in psychology, heuristics.
+A more process-based and fluid framework.
 
-\hypertarget{relationship-with-personality}{%
-\section{Relationship with Personality}\label{relationship-with-personality}}
+One could define an archetype is a basic frame facilitating a basic, instinctive, and intuitive understanding of a concept or a personality. This definition brings it close to a key concept in psychology, heuristics.
 
 \hypertarget{archetypes-and-the-brain}{%
 \chapter{Archetypes and the Brain}\label{archetypes-and-the-brain}}
 
 \textbf{\emph{Warning:} This is a work in progress, i.e., currently just a collection of unstructured information.}
 
-Do archetypes have a biological existence?
+Archetypes are a tangible reflection of a neuropsychological proto-structure. But do they have a biological existence?
 
 \hypertarget{origin}{%
 \section{Origin}\label{origin}}
@@ -278,9 +275,6 @@ Common motives in religions and myths beg the question of the existence or plaus
 
 Placeholder
 
-\hypertarget{history-of-cosmos-conceptualisations}{%
-\section{History of Cosmos-Conceptualisations}\label{history-of-cosmos-conceptualisations}}
-
 \hypertarget{scientific-theories-of-religion}{%
 \section{Scientific Theories of Religion}\label{scientific-theories-of-religion}}
 
@@ -296,10 +290,9 @@ Placeholder
 \hypertarget{proto-beliefs-vs.-religion}{%
 \section{Proto-beliefs vs.~Religion}\label{proto-beliefs-vs.-religion}}
 
-\hypertarget{the-symbolic-of-elements}{%
-\section{the symbolic of elements}\label{the-symbolic-of-elements}}
+\hypertarget{classical-elements}{%
+\section{Classical Elements}\label{classical-elements}}
 
-\bibliography{book.bib,packages.bib}
-
+  \bibliography{book.bib,packages.bib}
 
 \end{document}

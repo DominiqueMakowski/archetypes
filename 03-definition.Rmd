@@ -17,4 +17,6 @@ Archetypes are neither collective *per se*. They do not emanate or emerge from s
 Essentialisation is the core mechanism underlying the existence and creation of archetypes. Essentialisation is in general achieved either through biomorphism (in particular, anthropomorphism), giving Human or animal-like aspect to objects, or symbolification, reducing a concept to a (usually visual) symbol. The mode of essentialisation might depend on cognitive abilities (abstraction / imagery abilities) and environment (prevalence of natural or abstract objects).
 
 
-
+archetype primaire (innés) = génétique, adaptive
+archétype secondaire (activés) = activés par l'expérience precoces (sur un modèle epigenetique)
+archétype tertiaires (créés) : crée et entrenues par la culture 
