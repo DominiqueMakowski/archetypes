@@ -47,7 +47,7 @@ cat('# {-}')
 knitr::include_graphics('img/cover.png', dpi = NA)
 ```
 ```{r, echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), results='asis'}
-cat('<p align="center">***Click on the book cover to start reading.***</p>')
+cat('<p align="center">***Click on the right arrow to start reading.***</p>')
 ```
 
 
@@ -64,7 +64,7 @@ The idea that the mind is deeply organized along universal lines has always been
 
 **But beyond the scent of pseudo-science that emanates from this concept, do archetypes make any scientific sense?** 
 
-Archetypes, as they are commonly defined and conceptualized (i.e., with a Jungian-based psychodynamic approach), are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment, and functional or structural neuroanatomy. Similarly, research on personality and psychological inter-individual differences does not support the existence of profiles that would resemble commonly described archetypal figures (for example the warrior, the hero or the wise old man). Nonetheless, I think (and hope), that a scientific approach to archetypism (the study of psychological archetypes) is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology, and neuroscience. 
+Archetypes, as they are commonly defined and conceptualized (i.e., with a Jungian-based psychodynamic approach), are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment, and functional or structural neuroanatomy. Similarly, research on personality and psychological inter-individual differences does not support the existence of profiles that would resemble commonly described archetypal figures (for example the warrior, the hero or the old man). Nonetheless, I think (and hope), that a scientific approach to archetypism (the study of psychological archetypes) is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology, and neuroscience. 
 
 
 My own journey started as a naive interest for psychoanalysis in general, and a particular appeal for the deeply hidden core(s) of our being. But that original appeal did not last very long. The first blow was given by the *black book of psychoanalysis* ["Le livre noir de la psychanalyse"; @borch2005livre], that superbly and elegantly exposes and deconstructs most of the psychodynamic approach. And yet, my disillusionment was not complete, as Jung's "Depth Psychology" somehow resisted and maintained some level of magnetism in the back of my mind. Indeed, possibly related to my shared interest for myths and history of religions, or to some other unconscious motivation, I found Jungian mythological and cross-cultural perspective attractive (or, at least, interesting). But as my knowledge grew, I could no longer ignore the evidence. And the evidence is presented on a golden plate through the excellent book titled "Jung et les archétypes. Un mythe contemporain", in which @lequellec2013jung casts doubt (if not fire) upon the whole Jungian enterprise. Reading it finally cured from all psychodynamic non-sense. But it left me wondering; what is left of the archetypes in this landscape of burning ashes? 
