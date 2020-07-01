@@ -2,7 +2,7 @@
 
 ***Warning:* This is a work in progress, i.e., currently just a collection of unstructured information.**
 
-Archetypes, in their "psychological" definition (as related to the structure of the mind), were originally conceptualised by Carl Jung in the early 20th century. Thus, a meaningful history of archetypes should start there, altough deeper and earlier roots and sources of inspiration are often mentioned (for instance by Jung himself). Importantly, all these posterior re-interpretations and re-explorations of archetypes-related ideas before Jung are done through a Jungian lense. Hence, mastering the Jungian approach is necessary to understand the history and current state of archetypism.
+Archetypes, in their "psychological" meaning (as related to the structure of the mind), were originally conceptualised and defined as such by Carl Jung in the early 20th century. Thus, a meaningful history of archetypes should start there, with Jung, although deeper and earlier roots and sources of inspiration are often mentioned (for instance, by Jung himself). It is important to note, however, that most of these posterior re-interpretations and re-explorations of archetypes-related ideas pre-dating Jung are often done through a Jungian lens. Hence, mastering the Jungian approach is necessary to understand the history and current state of archetypism, its brilliance as well as its limitations.
 
 
 
@@ -11,18 +11,18 @@ Archetypes, in their "psychological" definition (as related to the structure of 
 
 <!-- overview -->
 
-The Swiss psychiatrist Carl Jung is the one that gave to "achetypes" its modern meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns or images that derive from the collective unconscious, seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such* and *archetypal images*, the former being the underlying forms from which emerge the latter (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
+The Swiss psychiatrist Carl Jung is the one that gave to "archetypes" its modern meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns, or images, that derive from the collective unconscious, itself seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such* and *archetypal images*, the former being the underlying forms from which emerge the latter (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
 
 ```{r, echo = FALSE, fig.cap="Carl Jung (1875 - 1961)."}
 knitr::include_graphics("img/jung.jpg")
 ```
 
-In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Through it, he expanded the notion of archetypes to the physical world itself, defining "psychoid" archetypes (the non-psychic aspect of the archetype) as fundamental principles of matter and energy, and mediators of the unus mundus.
+In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Through it, he expanded the notion of archetypes to the physical world itself, defining "psychoid" archetypes (the non-psychic aspect of the archetype) as fundamental principles of matter and energy, and mediators of the *unus mundus*.
 
 
 <!-- universal nature -->
 
-Critically, Jung's archetypes stem out of the *collective unconscious*, therefore forming a psycholopgical layer common to all humanity. The collective unconscious is, in Jung's perspective, referred to as the knowledge and experiences that we share as a species, a reminiscent echo of information passed down through generations from before the dawn of mankind.
+Critically, Jung's archetypes stem out of the *collective unconscious*, therefore forming a psychological layer common to all humanity. The collective unconscious is, in Jung's perspective, referred to as the knowledge and experiences that we share as a species, a reminiscent echo of information passed down through generations from before the dawn of mankind.
 
  
 ```{r, echo = FALSE, fig.cap="Illustration created by Jung (The Red Book: Liber Novus, 2009)."}
@@ -41,7 +41,7 @@ Jung also named "archetypes" what could be seen as parts of the psyche. In parti
 
 <!-- list -->
 
-Interstingly, while the archetypal images (the manifest motives) are usually the main focus and interest of subsequent authors (see below), it is important to note that Jung himself warned against such simplification. Such "definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited". Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – "the 'archaic remnants', which I call 'archetypes' or 'primordial images'" [@jung1964approaching].
+Interestingly, while the archetypal images (the manifest motives) are usually the main focus and interest of subsequent authors (see below), it is important to note that Jung himself warned against such simplification. Such *"definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited"*. Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – *"the 'archaic remnants', which I call 'archetypes' or 'primordial images'"* [@jung1964approaching].
 
 
 <!-- Describe the excellent work by @lequellec2013jung. -->
@@ -68,28 +68,28 @@ knitr::include_graphics("img/tarot.jpg")
 
 The *Major Arcana* consists of 22 cards, numbered in Roman numerals from I to XXI, while The Fool is the only unnumbered card, sometimes placed at the beginning of the deck as 0, or at the end as XXII.
 
-I. The Magician\\
-II. The High Priestess\\
-III. The Empress\\
-IIII. The Emperor\\
-V. The Hierophant\\
-VI. The Lovers\\
-VII. The Chariot\\
-VIII. Strength\\
-VIIII. The Hermit\\
-X. Wheel of Fortune\\
-XI. Justice\\
-XII. The Hanged Man\\
-XIII. Death\\
-XIIII. Temperance\\
-XV. The Devil\\
-XVI. The Tower\\
-XVII. The Star\\
-XVIII. The Moon\\
-XVIIII. The Sun\\
-XX. Judgement\\
-XXI. The World\\
-XXII. The Fool\\
+- I. The Magician
+- II. The High Priestess
+- III. The Empress
+- IIII. The Emperor
+- V. The Hierophant
+- VI. The Lovers
+- VII. The Chariot
+- VIII. Strength
+- VIIII. The Hermit
+- X. Wheel of Fortune
+- XI. Justice
+- XII. The Hanged Man
+- XIII. Death
+- XIIII. Temperance
+- XV. The Devil
+- XVI. The Tower
+- XVII. The Star
+- XVIII. The Moon
+- XVIIII. The Sun
+- XX. Judgement
+- XXI. The World
+- XXII. The Fool
 
 It is understandable that the mysterious origin of the Tarot, its esoteric figures, and critically the symbolic details present in them created a fertile terrain for all kinds of interpretations. Attempts to map these figures to Jungian concepts have been numerous. For instance, the Fool, interpreted as carefree ignorance, has been connected with the unrealised Self. He carries a closed bag, said to contain the tools that could allow him to achieve wholeness. On the other side, the World card (XXI), representing completion and success, has been related to the Self realised, as it shows an individual floating amongst the clouds. His nudity can be interpreted as transparency and revelation, where what was hidden before has now become known. The four animals present in the corners corresponds to the four elements in Christian symbolism, and are interpreted as evidence that the individual has harnessed the four elements present within Nature (being the fifth element). 
 
@@ -97,9 +97,13 @@ It is understandable that the mysterious origin of the Tarot, its esoteric figur
 
 ## Joseph Campbell (1904 - 1987)
 
-In "The Hero with a Thousand Faces", @campbell1949hero, inspired by Jung, presents his theory of the mythological structure of the journey of the archetypal hero extracted by comparing myths from different regions of the world. He identifies common tropes or characters, such as the young hero, the wise old man or woman, the shape-shifting woman or man, and the shadowy antagonist, that he relates to archetypes. He suggests that such myths and stories have a narrative structure that mirrors or echoes the psychological structure of the mind, which is the reason of their power.
+In "The Hero with a Thousand Faces", @campbell1949hero, inspired by Jung, presents his theory of the mythological structure of the journey of the archetypal hero extracted by comparing myths from different regions of the world. Coined the "Hero's Journey", he describes the ultimate narrative archetype as a "monomyth" (a recurring mythological motif). 
 
+Importantly to our topic of archetypes, he identifies common tropes or characters that take part in this meta-narrative. For instance, the young hero, the wise old man or woman, the goddess, the temptress and the shadowy antagonist, that he relates to archetypes. He suggests that such myths and stories have a narrative structure that mirrors or echoes the psychological structure of the mind, which is the reason of their power.
 
+```{r, echo = FALSE, fig.cap="Campbell's (1949) 17 stages of the hero's journey."}
+knitr::include_graphics("img/monomyth.png")
+```
 
 ## Robert Moore (1942 - 2016)
 
@@ -118,7 +122,7 @@ To each one of these archetypes correspond an immature version:
 - The Oedipal Child
 
   
-In the same framework, feminine (altough not directly mentioned by the original authors) are:
+In the same framework, feminine (although not directly mentioned by the original authors) are:
 
 - Queen 
 - Mother
@@ -147,16 +151,16 @@ In "The Hero and the Outlaw", @mark2001hero discuss twelve archetypes:
 knitr::include_graphics("img/12archetypes.png")
 ```
 
-This framework has been complexified, grouping these twelve archetypes into sets, for instance by classifying them into three types relative to their "driving source". For instance, the *Ego* type (Innocent, Orphan, Hero and Caregiver) is driven to fulfill ego-defined agendas and *mutatis mutandis* for the *Soul* (Explorer, Rebel, Lover and Creator) and *Self* (Jester, Sage, Magician and Ruler) types. 
+This framework has been complexified, grouping these twelve archetypes into sets, for instance by classifying them into three types relative to their "driving source". For instance, the *Ego* type (Innocent, Orphan, Hero and Caregiver) is driven to fulfil ego-defined agendas and *mutatis mutandis* for the *Soul* (Explorer, Rebel, Lover and Creator) and *Self* (Jester, Sage, Magician and Ruler) types. 
 
 Additionally to the type, these archetypes can also be clustered according to their orientation on a two-dimensional plane with four cardinal points, which are *Ego* (leaving a mark on the world), *Order* (providing structure), *Freedom* (yearning for paradise) and *Social* (connecting to others), creating pairs of opposite (Social and Freedom being opposed to Ego Order, respectively).
 
-The type and the orientation are additive groupings. For example, the Caregiver, being of the Ego-type, is driven by the need to fulfill ego agendas, through meeting the needs of others (characterising its social orientation). In a different way, the Hero, also driven by the same need to fulfill ego agendas, does so through courageous action that proves self-worth (characteristing its ego orientation).
+The type and the orientation are additive groupings. For example, the Caregiver, being of the Ego-type, is driven by the need to fulfil ego agendas, through meeting the needs of others (characterising its social orientation). In a different way, the Hero, also driven by the same need to fulfil ego agendas, does so through courageous action that proves self-worth (characterising its ego orientation).
 
 Finally, each of these twelve archetypes is addressing a specific "universal Human need", namely *safety* (the Innocent), *belonging* (the Orphan), *mastery* (the Hero), *service* (the Caregiver), *freedom* (the Explorer), *liberation* (the Rebel), *intimacy* (the Lover), *innovation* (the Creator), *pleasure* (the Jester), *understanding* (the Sage), *power* (the Magician) and *control* (the Ruler).
 
 
-However, it is important to note that the framework proposed by @mark2001hero was initially created with companies in mind rather than individuals *per se*, to help new business developping their brand by increasing their identification with specific archetypes. This archetypal branding could facilitate, supposedly, directly communicating with the potential client's unconscious in order to sell more products. This is followed by attempts to attribute dominant archetypes to existing brands. This perspective and usage of archetypes is, in our humble opinion, quite non-sensical.
+However, it is important to note that the framework proposed by @mark2001hero was initially created with companies in mind rather than individuals *per se*, to help new business developing their brand by increasing their identification with specific archetypes. This archetypal branding could facilitate, supposedly, directly communicating with the potential client's unconscious in order to sell more products. This is followed by attempts to attribute dominant archetypes to existing brands. This perspective and usage of archetypes is, in our humble opinion, quite nonsensical in regards with science.
 
 
 ```{r, echo = FALSE, out.width = "49%", fig.show='hold', fig.cap="Examples of association between existing brands and archetypes (retrieved from https://visionone.co.uk/app/uploads/brand-archetype-wheel.png and https://www.retailmarketing.com/wp-content/uploads/2017/09/Pic2.png)."}
@@ -166,7 +170,7 @@ knitr::include_graphics(c("img/brand_archetypes1.png", "img/brand_archetypes2.pn
 
 ## Other Developpments
 
-The coach Scott Jeffrey, after disguising random information as facts ("archetypes influence 99% of human behavior"), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger ("the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"). Besides the uselessness of an infinitely fined-grained concept, these classifications (that the author defines himself as "set patterns of behavior") are clearly different from archetypes as conceptualised in this book.
+The coach Scott Jeffrey, after disguising random information as facts (e.g., *"archetypes influence 99% of human behavior"*), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger (*"the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"*). Besides the uselessness of an infinitely fined-grained concept, these classifications (that the author defines himself as *"set patterns of behavior"*) are clearly different from archetypes as conceptualised in this book.
 
 
 ```{r, echo = FALSE, fig.cap="The 12 female archetypes described by Lucie René, supposedly 'handed down from the Matrilineal Era' but later 'fractured, polarized, and corrupted during the Patriarchy' (retrieved from https://luciarene.com/pdfs/Archetype-Diagram.pdf)."}
