@@ -1,6 +1,9 @@
 # The Serpent in the Brain: A Neuroscientific Perspective on Archetypes
 
-<img src='img/cover_border.png' href="https://dominiquemakowski.github.io/archetypes/" align="right" height="540" />
+<a href="https://dominiquemakowski.github.io/archetypes/">
+  <img src='img/cover_border.png' align="right" height="550" />
+</a>
+
 
 ***Disclaimer:* This is a compilation of thoughts that might be someday used in a fictional novel. It does *not* reflect any personal beliefs.**
 
