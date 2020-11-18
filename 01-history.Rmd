@@ -2,16 +2,29 @@
 
 ***Warning:* This is a work in progress, i.e., currently just a collection of unstructured information.**
 
-Archetypes, in their "psychological" meaning (as related to the structure of the mind), were originally conceptualised and defined as such by Carl Jung in the early 20th century. Thus, a meaningful history of archetypes should start there, with Jung, although deeper and earlier roots and sources of inspiration are often mentioned (for instance, by Jung himself). It is important to note, however, that most of these posterior re-interpretations and re-explorations of archetypes-related ideas pre-dating Jung are often done through a Jungian lens. Hence, mastering the Jungian approach is necessary to understand the history and current state of archetypism, its brilliance as well as its limitations.
-
+Archetypes, in their "psychological" meaning (as related to the structure of the mind), were originally conceptualised, defined as such, and popularized by Carl Jung in the early 20th century. Thus, a meaningful history of archetypes should start here, with Jung, although deeper and earlier roots and sources of inspiration are often mentioned (for instance, by Jung himself). Regarding these often-cited "ancient roots" of archetypes-related ideas, it is important to note, however, that they usually take the form of posterior re-interpretations done through a Jungian lens (eventually leading to deformations and misinterpretation of the original ideas). Thus, understanding the Jungian approach is a relevant starting point to understand the history and current state of archetypism, its brilliance as well as its limitations.
 
 
 
 ## Carl Jung (1875 - 1961)
 
+<!-- Historical context -->
+The end of romantic era, in the late 19th century, was marked by the after-effects of earlier major discoveries (e.g., electricity), that stirred up a bubbling environment for arts, philosophy and science. It is when neuroscience makes its formal *debuts* [even though the term "neuroscience" would appear only a century later, in the 1960s; @rose20155o], and when psychology starts its process of independence as a scientific field, both coexisting with pseudo-scientific approaches such as hypnotism or the theory of Orgone.
+
+
+> "It was a time when poets consorted with laboratory scientists, 
+when philosophical doctors developed scientific theories, 
+when Alexander Bell could work out his physiological psychology in a series of lectures to London artists, 
+when scientists could perform as showmen, 
+and researcher’s experiments could be replicated by an eager public wherever it was possible.” [@richardson2001british]
+
+Our story starts right after, at the dawn of the 20th century. These are turbulent times for psychology, being torn between two opposite movements, one aiming at the pure reduction of mind to a set of laws and rules constrained by biology and physics (behaviourism, psychophysics, Gestalt...), and the other aiming at the reduction of the mind to a set of "extra-biological" entities forming the *psyche* (psychodynamic approaches, ...). 
+
+It is also a time of political unrest, when identities of nations and people are being challenged in the face of emerging doctrines and globalizing economies. Nationalist views are on the rise in Europe, and supposed lost roots are sought in so-called "primitive" cultures, often fuelled by more-or-less (and sometimes fully esoteric) scientific anthropologic theories (one posterior exemplification being the 1938 nazi expeditions to the Himalayas aimed, among others, to investigate possible origins of the Aryan race).
+
 <!-- overview -->
 
-The Swiss psychiatrist Carl Jung is the one that gave to "archetypes" its modern meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns, or images, that derive from the collective unconscious, itself seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such* and *archetypal images*, the former being the underlying forms from which emerge the latter (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
+It is in this troubled context that the Swiss psychiatrist Carl Jung gave to "archetypes" its modern meaning in 1919. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns, or images, that derive from the collective unconscious, itself seen as the psychic counterpart of bodily instincts [@feist2009theories]. He makes a distinction between *archetypes-as-such* and *archetypal images*, the former being the underlying forms from which emerge the latter (e.g., the mother, the child, ...). These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012].
 
 ```{r, echo = FALSE, fig.cap="Carl Jung (1875 - 1961)."}
 knitr::include_graphics("img/jung.jpg")
@@ -34,13 +47,19 @@ knitr::include_graphics("img/jung_red_book_serpent.jpg")
 
 Jung also named "archetypes" what could be seen as parts of the psyche. In particular, he focused on five of such dimensions: 
 
-- The **Anima** and the **Animus** are the feminine and masculine aspects of our Psyche. He mentions four distinct levels of development for the Anima, corresponding to its formation and evolution during the lifetime of an individual. *Eve* is the first stage, where the anima emerges in the shape of the male's object of desire. She then becomes *Helen* (of Troy, who sailed away from his husband), an independent and intelligent woman. She achieves virtue in *Mary* (the purest figure in Christian tradition), and finally becomes *Sophia*, the Greek goddess of wisdom.
+
+- The **Anima** and the **Animus** are the feminine and masculine aspects of our Psyche. He mentions four distinct levels of development for the feminine Anima, corresponding to its formation and evolution during the lifetime of an individual. *Eve* is the first stage, where the anima emerges in the shape of the male's object of desire. She then becomes *Helen* (of Troy, who sailed away from his husband), an independent and intelligent woman. She achieves virtue in *Mary* (the purest figure in Christian tradition), and finally becomes *Sophia*, the incarnation of the idea of divine wisdom. For the Animus, the main features of the four parallel stages of development include physical power (such as "the fictional jungle hero *Tarzan*"), action and romance (the *hero*), knowledge (professor or the clergyman), and spiritual wisdom (*Hermes*, the messenger of the gods). Like Sophia, it is considered the highest level of mediation between the unconscious and conscious mind. It is interesting to note the subtle mirroring of the feminine and masculine stages. While the first stages are both characterized by bodily needs and drives (sexual beauty and physical strength) and then action and commitment, the third stage underlines values of morality for the feminine and knowledge for the masculine, that could be seen as immaterial and material forms of wisdom. Finally, the last stage emphasizes a more spiritual and esoteric aspects of wisdom (Sophia and Hermes being two central figures in alchemy and others esoteric doctrines).
+
+<!-- Faire GRAPHIQUE avec tout les stages et leurs main features on parralel -->
+
+
 - The **shadow** is the part of one's Self to which the conscious ego does not identify.
 - The **Persona** refers to the image that a person presents to the world. According to Jung, the Persona is "a kind of mask, designed on the one hand to make a definite impression upon others, and on the other to conceal the true nature of the individual". It emerges from the amalgamation of what an individual wants to be, what he thinks he is, what other people think of him and what they want him to be.
 - The **Self** is the realised product of the integration of all conscious and unconscious aspects of our personality.
 
-<!-- list -->
 
+
+<!-- list -->
 Interestingly, while the archetypal images (the manifest motives) are usually the main focus and interest of subsequent authors (see below), it is important to note that Jung himself warned against such simplification. Such *"definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited"*. Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – *"the 'archaic remnants', which I call 'archetypes' or 'primordial images'"* [@jung1964approaching].
 
 
@@ -59,6 +78,8 @@ Pre-Jungian Usages of the Word:
 
 
 ## Archetypal Interpretation of the Tarot
+
+Before we dive in into more classical neojungian archetypes, let us take a *detour* by an object which obscure symbolism has *de facto* endowed it with esoteric knowledge which access was attempted using archetype-like concepts.
 
 The first documented tarot packs were recorded between 1440 and 1450, and are likely to have entered Europe from Egypt in the late 14th century. The Tarot consists of 78 cards - 56 in the *Minor Arcana* and 22 in the *Major Arcana* (also known as the trump cards), which consists of the emblematic picture cards of a tarot deck. Although the tarot being a very old game, its interpretation as having a relationship with archetypes was started by Jung himself in [1933](https://marykgreer.com/2008/03/31/carl-jung-and-tarot/). "They are psychological images, symbols with which one plays, as the unconscious seems to play with its contents." The content on these cards, said Jung, "are sort of archetypal ideas, of a differentiated nature."
 
