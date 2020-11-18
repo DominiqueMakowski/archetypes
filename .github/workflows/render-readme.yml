@@ -19,5 +19,6 @@ jobs:
         run: Rscript -e 'rmarkdown::render("README.Rmd", "github_document", output_file = "README.md")'
       - name: Commit results
         run: |
+          git fetch origin --all
           git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
