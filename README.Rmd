@@ -1,16 +1,6 @@
 ---
 output: 
-  github_document:
-    toc: false
-    fig_width: 10.08
-    fig_height: 6
-title: "README"
-vignette: >
-  %\VignetteIndexEntry{README}
-  \usepackage[utf8]{inputenc}
-  %\VignetteEngine{knitr::rmarkdown}
-editor_options: 
-  chunk_output_type: console
+  github_document
 ---
 
 
