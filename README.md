@@ -79,14 +79,5 @@ archetypes in this landscape of burning ashes?
 
 **As a phoenix, can this idea be reborn?**
 
-<div class="figure">
-
-<img src="img/phoenix_aberdeen_bestiary.jpg" alt="Phoenix illumination from the Aberdeen Bestiary (12th century)." width="543" />
-
-<p class="caption">
-
-Phoenix illumination from the Aberdeen Bestiary (12th century).
-
-</p>
-
-</div>
+![Phoenix illumination from the Aberdeen Bestiary (12th
+century).](img/phoenix_aberdeen_bestiary.jpg)
