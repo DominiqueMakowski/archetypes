@@ -1,6 +1,6 @@
 --- 
 title: "The Serpent in the Brain: A Neuroscientific Perspective on Archetypes"
-author: "Dr. Dominique Makowski"
+author: "Dr Dominique Makowski"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: 
