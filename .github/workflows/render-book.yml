@@ -23,9 +23,9 @@ jobs:
         run: |
           git commit -m 'Push gitbook' --docs || echo "No changes to commit"
           git push origin || echo "No changes to commit"
-      - name: Render PDF
-        run: Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::pdf_book", output_dir = "./pdf/")'
-      - name: Commit results
-        run: |
-          git commit -m 'Push pdf' --pdf || echo "No changes to commit"
-          git push origin || echo "No changes to commit"
+      #- name: Render PDF
+      #  run: Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::pdf_book", output_dir = "./pdf/")'
+      #- name: Commit results
+      #  run: |
+      #    git commit -m 'Push pdf' --pdf || echo "No changes to commit"
+      #    git push origin || echo "No changes to commit"
