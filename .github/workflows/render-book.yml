@@ -17,8 +17,8 @@ jobs:
         run: Rscript -e 'install.packages(c("rmarkdown", "blogdown", "bookdown", "tufte"), dependencies = TRUE)'
       - name: Render Gitbook
         run: |
-          # setwd("./content/")
-          bookdown::render_book("index.Rmd", "bookdown::gitbook")
+          Rscript -e 'setwd("./content/")'
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
       - name: Commit results
         run: |
           git fetch origin
