@@ -1,5 +1,5 @@
-
-# The Serpent in the Brain: A Neuroscientific Perspective on Archetypes
+The Serpent in the Brain: A Neuroscientific Perspective on Archetypes
+=====================================================================
 
 <a href="https://dominiquemakowski.github.io/archetypes/">
 <img src='content/img/cover_border.png' align="right" height="500" />
@@ -19,7 +19,8 @@
 <!-- # setwd("./content/") -->
 <!-- ``` -->
 
-# Preface
+Preface
+=======
 
 ***Disclaimer:* This is a compilation of thoughts that might be someday
 used in a fictional novel. It does *not* reflect any personal beliefs.**
@@ -72,7 +73,7 @@ other unconscious motivation, I found Jungian mythological and
 cross-cultural perspective attractive (or, at least, interesting). But
 as my knowledge grew, I could no longer ignore the evidence… And that
 evidence is presented on a golden plate in the excellent book titled
-“Jung et les archétypes. Un mythe contemporain,” in which Le Quellec
+“Jung et les archétypes. Un mythe contemporain”, in which Le Quellec
 (2013) casts compelling doubt (if not fire) upon the whole Jungian
 enterprise. Reading it finally cured from all psychodynamic non-sense.
 But it left me wondering; what is left of archetypes in this landscape
@@ -93,14 +94,8 @@ archetypes. I will conclude by discussing the limitations for the
 scientific investigation of archetypes (related for instance to the
 bidirectional causality of its genesis) and future directions.
 
-<div class="figure">
-
-<img src="D:/Dropbox/RECHERCHE/N/archetypes/content/img/phoenix_aberdeen_bestiary.jpg" alt="Phoenix illumination from the Aberdeen Bestiary (12th century)." width="543" />
-<p class="caption">
-Phoenix illumination from the Aberdeen Bestiary (12th century).
-</p>
-
-</div>
+![Phoenix illumination from the Aberdeen Bestiary (12th
+century).](/Users/runner/work/archetypes/archetypes/content/img/phoenix_aberdeen_bestiary.jpg)
 
 <!-- ```{r include=FALSE} -->
 <!-- knitr::opts_knit$set(root.dir = '../') -->
