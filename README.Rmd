@@ -4,20 +4,21 @@ output:
     toc: false
     fig_width: 10.08
     fig_height: 6
-title: "README"
 vignette: >
   %\VignetteIndexEntry{README}
   \usepackage[utf8]{inputenc}
   %\VignetteEngine{knitr::rmarkdown}
 editor_options: 
   chunk_output_type: console
+bibliography: content/bibliography.bib
+suppress-bibliography: true
 ---
 
 
 # The Serpent in the Brain: A Neuroscientific Perspective on Archetypes
 
 <a href="https://dominiquemakowski.github.io/archetypes/">
-  <img src='img/cover_border.png' align="right" height="500" />
+  <img src='content/img/cover_border.png' align="right" height="500" />
 </a>
 
 
@@ -29,6 +30,17 @@ editor_options:
 
 ---
 
+<!-- ```{r include=FALSE} -->
+<!-- knitr::opts_knit$set(root.dir = './content/') -->
+<!-- # setwd("./content/") -->
+<!-- ``` -->
+
 
 ```{r child = 'content/00-preface.Rmd'}
 ```
+
+
+<!-- ```{r include=FALSE} -->
+<!-- knitr::opts_knit$set(root.dir = '../') -->
+<!-- # setwd("../") -->
+<!-- ``` -->

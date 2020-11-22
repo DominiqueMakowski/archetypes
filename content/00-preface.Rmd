@@ -18,11 +18,11 @@ My own journey started even before entering university, as a naive interest for 
 
 **As a phoenix, can this idea be reborn?**
 
-This book is first attempt to connect the notion of archetypes with scientific evidence. In the following chapters, I will start by a brief overview of the current landscape of archetypism, as it is found in self-help books and posts. Interestingly, the scientific literature on the topic is scare, if not inexistent. Thus, in the second part, I will try to bridge the concept of archetypes with existing concepts and theories in modern psychology and neuroscience. Finally, based in an evolutionary perspective, I will outline a new definition of archetypes and will suggest some ideas related to a plausible conceptualisation of archetypes. I will conclude by discussing the limitations for the scientific investigation of archetypes (related for instance to the bidirectional causality of its genesis) and future directions.
+This book is first attempt to connect the notion of archetypes with scientific evidence. In the following chapters, I will start by a brief overview of the current landscape of the field, as it is found in self-help books and posts. Interestingly, the scientific literature on the topic is scare, if not inexistent. Thus, in the second part, I will try to bridge the concept of archetypes with existing concepts and theories in modern psychology and neuroscience. Finally, based in an evolutionary perspective, I will outline a new definition of archetypes and will suggest some ideas related to a plausible conceptualisation of archetypes. I will conclude by discussing the limitations for the scientific investigation of archetypes (related for instance to the bidirectional causality of its genesis) and future directions.
 
 
 
 
 ```{r, echo = FALSE, fig.cap="Phoenix illumination from the Aberdeen Bestiary (12th century)."}
-knitr::include_graphics("img/phoenix_aberdeen_bestiary.jpg")
+knitr::include_graphics(paste0(getwd(), "/img/phoenix_aberdeen_bestiary.jpg"))
 ```
