@@ -79,8 +79,8 @@ ashes?
 This book is first attempt to connect the notion of archetypes with
 scientific evidence. In the following chapters, I will start by a brief
 overview of the current landscape of archetypism, as it is found in
-self-help books and posts. Interestignly, the scientific literature on
-the topic is scarse, if not inexistent. Thus, in the second part, I will
+self-help books and posts. Interestingly, the scientific literature on
+the topic is scare, if not inexistent. Thus, in the second part, I will
 try to bridge the concept of archetypes with existing concepts and
 theories in modern psychology and neuroscience. Finally, based in an
 evolutionary perspective, I will outline a new definition of archetypes
