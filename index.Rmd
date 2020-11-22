@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 output: 
  bookdown::gitbook: default
 documentclass: book
-bibliography: [bibliography.bib, packages.bib]
+bibliography: bibliography.bib
 biblio-style: apalike
 link-citations: yes
 colorlinks: yes
@@ -21,9 +21,9 @@ description: "The Serpent in the Brain: A Neuroscientific Perspective on Archety
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+# knitr::write_bib(c(
+#   .packages(), 'bookdown', 'knitr', 'rmarkdown'
+# ), 'packages.bib')
 
 
 knitr::opts_chunk$set(echo = FALSE, 
