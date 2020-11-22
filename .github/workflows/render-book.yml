@@ -19,6 +19,7 @@ jobs:
         run: Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
       - name: Commit results
         run: |
+          git fetch origin
           git commit -m 'Push gitbook' docs || echo "No changes to commit"
           git push origin || echo "No changes to commit"
       #- name: Render PDF
