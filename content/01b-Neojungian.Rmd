@@ -1,25 +1,37 @@
 ## Neojungian Archetypes
 
-The current state of archetypism is mostly dominated by so-called neojungian authors.
+The current state of archetypism is mostly dominated by so-called neojungian authors, using the concept of archetypes to refer to a wide variety of phenomena, including objects and beings (e.g., the snake), narrative patterns (e.g., the hero), symbols and images (e.g., the cross), or practices and rituals (e.g., the sacrifice). Importantly, they view archetypes as an explanatory theory for psychological and cultural phenomena. For instance, it is used to explain the similarities between fairy tales from different parts of the world. This explanatory usage dates back to Jung himself, that drew on patterns derived from myth (e.g. the story of the hero) to explain the psychopathological fantasies of his patients. 
 
 
-### Archetypal Interpretation of the Tarot
+It is important to remember that psychoanalysis, aside from a psychological approach, has also developed as a therapeutic practice. Thus, the shift in neojungian approaches, from a highly abstract and conceptual definition of archetypes, to a more applied and useful usage is not surprising. Archetypes are indeed heavily used in Jungian therapy, with the idea that universal patterns of healthy development are given to all human beings, that can be activated in the process of analysis to guide the therapy to a good end [@roesler2012archetypes].
 
-Before we dive in into more classical neojungian archetypes, let us make a *detour* by an object which obscure symbolism has *de facto* endowed it with esoteric knowledge which access was attempted using archetype-like concepts.
+A concrete use of archetypes in clinical practice is to connect an image, pattern or symbol in the dream of a client to a mythological story or a fairy tile. This allows the unconscious of the client to relate to a broader archetypal pattern which contains additional helpful information. In other words, archetypes are transporters of information which can foster psychological development.
 
-The first documented tarot packs were recorded between 1440 and 1450, and are likely to have entered Europe from Egypt in the late 14th century. The Tarot consists of 78 cards - 56 in the *Minor Arcana* and 22 in the *Major Arcana* (also known as the trump cards), which consists of the emblematic picture cards of a tarot deck. Although the tarot being a very old game, its interpretation as having a relationship with archetypes was started by Jung himself in [1933](https://marykgreer.com/2008/03/31/carl-jung-and-tarot/). "They are psychological images, symbols with which one plays, as the unconscious seems to play with its contents." The content on these cards, said Jung, "are sort of archetypal ideas, of a differentiated nature."
+### E. Neumann (1905 - 1960) and the Great Mother
 
-```{r, echo = FALSE, fig.cap="The 22 cards in the Major Arcana of the 'Tarot de Marseilles'."}
-knitr::include_graphics("img/tarot.jpg")
+https://en.wikipedia.org/wiki/The_Great_Mother
+
+Despite being one of Jung’s most gifted students, Erich Neumann is a figure whose history is relatively little known. Born in Berlihe attended university in Nuremberg, studying philosophy and psychology, Neumann went on to study medicine but was denied an internship because of the race laws introduced by the Nazi government. Having decided in 1933 to emigrate to Palestine, he travelled first to Zürich where he met Jung, thirty years his senior. Neumann decided to stay in Zürich and enter analysis with Jung, while his wife Julia entered analysis with Jung's wife Emma. After nearly a year of analysis, the coupled qualified as analysts (note that in most psychodynamic streams, undergoing an analysis is the sole qualifying criterion to become an analyst). 
+
+
+Neumann published *The Origins and History of Consciousness* in 1949, in which he suggests that the consciousness of individuals and of the collective groups developed in parallel. Drawing on a range of myths, Neumann suggests that most cultures produce a succession of archetypes intended to enhance individual self-awareness and maturity. Cultures also developed psychologically, evolving from a collective tribal maternal archetype to a paternal archetype, embodied in a prophet. This archetype eventually became repressive and was replaced by a more modern archetype based on individual responsibility. 
+
+<!-- GREAT MOTHER  -->
+https://en.wikipedia.org/wiki/The_Great_Mother
+https://www.bu.edu/arion/files/2010/03/Paglia-Great-Mother1.pdf
+https://www.tate.org.uk/art/research-publications/henry-moore/tim-martin-erich-neumann-on-henry-moore-public-sculpture-and-the-collective-unconscious-r1151316#fn_1_2
+
+
+Neumann's work will find a strong echo in art and anthropology, influential for instance for the archaeologist Marija Gimbutas, author of *The Goddesses and Gods of Old Europe* (1974) and *The Civilization of the Goddess* (1991). In her work, she suggests that the Old Europe (pre-indo-european civilization) was composed of woman-centered societies that were peaceful and equalitarian, later supplanted by an indo-european patriarchal and warrior-like culture. However, she will prefer to use the term "Great Goddess" instead of Great Mother to refer to this primordial figure, best describing her absolute rule, her creative, destructive, and regenerative powers.
+
+
+
+```{r, echo = FALSE, fig.cap="Neumann's Great Mother."}
+knitr::include_graphics("img/neumann_feminine.jpg")
 ```
 
-The *Major Arcana* consists of 22 cards, numbered in Roman numerals from I to XXI, while The Fool is the only unnumbered card, sometimes placed at the beginning of the deck as 0, or at the end as XXII. They represent, respectively, *The Magician* (I), *The High Priestess* II(), *The Empress* (III), *The Emperor* (IIII), *The Hierophant* (V), *The Lovers* (VI), *The Chariot* (VII), *Strength* (VIII), *The Hermit* (VIIII), *Wheel of Fortune* (X), *Justice* (XI), *The Hanged Man* (XII), *Death* (XIII), *Temperance* (XIIII), *The Devil* (XV), *The Tower* (XVI), *The Star* (XVII), *The Moon* (XVIII), *The Sun* (XVIIII), *Judgement* (XX), *The World* (XXI) and *The Fool* (XXII).
 
-It is understandable that the mysterious origin of the Tarot, its esoteric figures, and critically the symbolic details present in them created a fertile terrain for all kinds of interpretations. Attempts to map these figures to Jungian concepts have been numerous. For instance, the Fool, interpreted as carefree ignorance, has been connected with the unrealised Self. He carries a closed bag, said to contain the tools that could allow him to achieve wholeness. On the other side, the World card (XXI), representing completion and success, has been related to the Self realised, as it shows an individual floating amongst the clouds. His nudity can be interpreted as transparency and revelation, where what was hidden before has now become known. The four animals present in the corners corresponds to the four elements in Christian symbolism, and are interpreted as evidence that the individual has harnessed the four elements present within Nature (being the fifth element).
-
-
-
-### Joseph Campbell (1904 - 1987)
+### J. Campbell (1904 - 1987) and the Monomyth
 
 > _Dreams are private myths, and myths are public dreams._
 >
@@ -33,7 +45,7 @@ Importantly to our topic of archetypes, he identifies common tropes or character
 knitr::include_graphics("img/monomyth.png")
 ```
 
-### Robert Moore (1942 - 2016)
+### R. Moore (1942 - 2016) and the 4 Archetypes
 
 In "King Warrior Magician Lover", @moore1991king discuss the four primary masculine archetypes:
 
@@ -57,7 +69,7 @@ In the same framework, feminine (although not directly mentioned by the original
 - Wise woman
 - Lover
 
-### Carol Pearson (1944 - Present)
+### C. S. Pearson (1944 - Present) and the 12
 
 In "The Hero and the Outlaw", @mark2001hero discuss twelve archetypes:
  
@@ -96,7 +108,26 @@ knitr::include_graphics(c("img/brand_archetypes1.png", "img/brand_archetypes2.pn
 ```
 
 
-### Other Developpments
+### Other Examples
+
+
+#### Archetypal Interpretation of the Tarot
+
+Before we dive in into more classical neojungian archetypes, let us make a *detour* by an object which obscure symbolism has *de facto* endowed it with esoteric knowledge which access was attempted using archetype-like concepts.
+
+The first documented tarot packs were recorded between 1440 and 1450, and are likely to have entered Europe from Egypt in the late 14th century. The Tarot consists of 78 cards - 56 in the *Minor Arcana* and 22 in the *Major Arcana* (also known as the trump cards), which consists of the emblematic picture cards of a tarot deck. Although the tarot being a very old game, its interpretation as having a relationship with archetypes was started by Jung himself in [1933](https://marykgreer.com/2008/03/31/carl-jung-and-tarot/). "They are psychological images, symbols with which one plays, as the unconscious seems to play with its contents." The content on these cards, said Jung, "are sort of archetypal ideas, of a differentiated nature."
+
+```{r, echo = FALSE, fig.cap="The 22 cards in the Major Arcana of the 'Tarot de Marseilles'."}
+knitr::include_graphics("img/tarot.jpg")
+```
+
+The *Major Arcana* consists of 22 cards, numbered in Roman numerals from I to XXI, while The Fool is the only unnumbered card, sometimes placed at the beginning of the deck as 0, or at the end as XXII. They represent, respectively, *The Magician* (I), *The High Priestess* II(), *The Empress* (III), *The Emperor* (IIII), *The Hierophant* (V), *The Lovers* (VI), *The Chariot* (VII), *Strength* (VIII), *The Hermit* (VIIII), *Wheel of Fortune* (X), *Justice* (XI), *The Hanged Man* (XII), *Death* (XIII), *Temperance* (XIIII), *The Devil* (XV), *The Tower* (XVI), *The Star* (XVII), *The Moon* (XVIII), *The Sun* (XVIIII), *Judgement* (XX), *The World* (XXI) and *The Fool* (XXII).
+
+It is understandable that the mysterious origin of the Tarot, its esoteric figures, and critically the symbolic details present in them created a fertile terrain for all kinds of interpretations. Attempts to map these figures to Jungian concepts have been numerous. For instance, the Fool, interpreted as carefree ignorance, has been connected with the unrealised Self. He carries a closed bag, said to contain the tools that could allow him to achieve wholeness. On the other side, the World card (XXI), representing completion and success, has been related to the Self realised, as it shows an individual floating amongst the clouds. His nudity can be interpreted as transparency and revelation, where what was hidden before has now become known. The four animals present in the corners corresponds to the four elements in Christian symbolism, and are interpreted as evidence that the individual has harnessed the four elements present within Nature (being the fifth element).
+
+
+#### Coaching
+
 
 The coach Scott Jeffrey, after disguising random information as facts (e.g., *"archetypes influence 99% of human behavior"*), ends up with a list of [over 325](https://scottjeffrey.com/archetypes-list/) archetypes (!), suggesting that their number is even larger (*"the reality is that there are thousands of archetypes. Each one possesses different behavioral patterns and subtleties"*). Besides the uselessness of an infinitely fined-grained concept, these classifications (that the author defines himself as *"set patterns of behavior"*) are clearly different from archetypes as conceptualised in this book.
 

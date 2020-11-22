@@ -4,7 +4,7 @@
 
 
 
-## Jung and his Archetypes
+## C. G. Jung (1875 - 1961) and his Archetypes
 
 > _All the most powerful ideas in history go back to archetypes._
 >
@@ -18,7 +18,7 @@ Jung's theory, through its interesting ideas as well as limitations, is thus a r
 
 ### Historical and philosophical context
 
-The end of romantic era, in the late 19th century, was marked by the after-effects of the industrial revolutions and their major discoveries (e.g., electricity), that stirred up a bubbling environment for arts, philosophy and science. It is for instance when neuroscience makes its formal *debuts* [even though the term "neuroscience" would appear only a century later, in the 1960s; @rose20155o], and when psychology starts its process of independence as a scientific field, coexisting (and initially co-thriving) with pseudo-scientific approaches and ideas such as hypnotism, vitalism, magnetism, odology or the theory of Orgone. <!-- add more examples -->
+The end of romantic era, in the late 19th century, was marked by the after-effects of the industrial revolutions and their major discoveries (e.g., electricity), that stirred up a bubbling environment for arts, philosophy and science. It is for instance when neuroscience makes its formal *debuts* [even though the term "neuroscience" would appear only a century later, in the 1960s; @rose20155o], and when psychology starts its process of independence as a scientific field, coexisting (and initially co-thriving) with pseudo-scientific approaches and ideas such as parapsychology, mediumship, hypnotism, vitalism, magnetism, odology or the theory of Orgone. <!-- add more examples -->
 
 > "It was a time when poets consorted with laboratory scientists, 
 when philosophical doctors developed scientific theories, 
@@ -63,18 +63,14 @@ The Jungian simplified conceptualisation of the mind is often presented as a sph
 
 What exactly are archetypes? Interestingly, we do not find a consistent specific definition of archetypes formulated by Jung. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns, or images, that derive from the collective unconscious, itself seen as the psychic counterpart of bodily instincts [@feist2009theories]. These archetypes are supposedly responsible for the innate tendency to experience the world in a certain way. They are "universal patterns producing meaning and guiding development" [@roesler2012archetypes].
 
-Jung makes a distinction between archetypes *per se* and archetypal images (even though Jungians and Jung himself have often failed to maintain it consistently). Archetypes are forms without content, inaccessible and unrepresentable structures from which emerge archetypical images. The archetypes being themselves  contentless, they are often named on the basis of the images whose form they provide. It is common to find specific archetypes named after mythological figures (e.g., the "Hera" archetype), anthropological roles (e.g., the "Mother"), narrative motifs (e.g., "Wise Old Man") or some more abstract themes, such as the archetype of engulfment or the archetype of rebirth. These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012], and can be distinguished from ordinary images based on the subjective impression they make on us: they are salient and emotionally loaded, and appear as deep, mysterious and numinous (i.e., with a spiritual, or awe-inspiring, quality). However, adding to the difficulty is the fact that there appears to be no one-to-one relationship between one archetype and an image. Many images can stem out from the same archetype, and a single image could result from the combination of several archetypes at once.
+Jung makes a distinction between archetypes-as-such and archetypal images (even though Jungians and Jung himself have often failed to maintain this distinction consistently). Archetypes are forms without content, inaccessible and unrepresentable structures from which emerge archetypical images. The archetypes being themselves  contentless, they are often named on the basis of the images whose form they provide. It is common to find specific archetypes named after mythological figures (e.g., the "Hera" archetype), anthropological roles (e.g., the "Mother"), narrative motifs (e.g., "Wise Old Man") or some more abstract themes, such as the archetype of engulfment or the archetype of rebirth. These archetypal images are made *manifest* (i.e., explicit and consciously accessible) as they are filled with specific content through history, culture or personal history [@papadopoulos2012], and can be distinguished from ordinary images based on the subjective impression they make on us: they are salient and emotionally loaded, and appear as deep, mysterious and numinous (i.e., with a spiritual, or awe-inspiring, quality). However, adding to the difficulty is the fact that there appears to be no one-to-one relationship between one archetype and an image. Many images can stem out from the same archetype, and a single image could result from the combination of several archetypes at once.
 
 
-In 1912, Jung published his work *Psychology of the Unconscious* (later revised as *Symbols of Transformation* in 1952), which led to a break in the friendship with Freud. In this book, a theoretical divergence between Jung and Freud on the nature of the libido
-
-in which he investigated the fantasies of a young woman
-
-
-Jung arrived at an idea of archetypes after realizing the large number of participants presenting similar "complexes" (i.e., partially repressed, yet highly influential emotional cluster of charged psychic material such as thoughts, feelings, and behaviours, that organises experience, perception, and affect around a central theme). This led Jung to assume the existence of a prototypical pattern behind these similar complexes that would be shared by all human beings. Another stream of evidence came as from Jung's experience with psychotic patients in the Burghölzli hospital in Zurich, where he saw in many of the patients' "fantasies" motifs from ancient mythology. The most famous case being the so-called *Solar Phallus Man*, a patient suffering from paranoid dementia, who reported in 1901 (note that Jung kept changing the dates of this story, as well as hiding the fact that this man was the patient of another psychiatrist) a striking hallucination in which the sun had an upright tail (*"similar to an erect penis,"*, Jung added), which moved back and forth, causing the wind to blow. It is only years later, as Jung became aware of a similar symbol in a recently translated Hellenistic text (The "Mithras Liturgy", part of the *Greek Magical Papyri*), which describes a wind originating from a pipe or tube hanging downright from the disc of the sun. Jung assumed that these two symbols were the same, and since the patient was unlikely to be familiar with this text [or so claimed Jung; see @noll1997jung for a detailed description of Jung's falsifications and lies], its the only possible origin was the collective unconscious.
+In 1912, at 36, Jung published his work *Psychology of the Unconscious* (later revised as *Symbols of Transformation* in 1952), which led to a break in the friendship with Freud. In this book, he investigates the autosuggestive writings of Miss Frank Miller, an American writer and stage performer of considerable education. Jung did not know her personally, encountering Miller's "fantasies" through their 1905 publication with a preface by Théodore Flournoy's (a Swiss professor of psychology, interested in parapsychology). In their extensive analysis, Jung starts outlining and describing symbols and patterns, such as "the myth of the hero", the mother, or the sacrifice, that would later become popular archetypal images. Notably, Jung diagnosed Miller's fantasies as "the prodromal stages of schizophrenia" and predicted an evolution into a fully-fledged schizophrenia, which did not happen.  
 
 
 
+Jung arrived at the idea of the universality of archetypes after realizing the large number of participants presenting similar "complexes" (i.e., partially repressed, yet highly influential emotional cluster of charged psychic material such as thoughts, feelings, and behaviours, that organises experience, perception, and affect around a central theme). This led Jung to assume the existence of a prototypical pattern behind these similar complexes that would be shared by all human beings. Another stream of evidence came as from Jung's experience with psychotic patients in the Burghölzli hospital in Zurich, where he saw in many of the patients' "fantasies" motifs from ancient mythology. The most famous case being the so-called *Solar Phallus Man*, a patient suffering from paranoid dementia, who reported in 1901 (note that Jung kept changing the dates of this story, as well as hiding the fact that this man was the patient of another psychiatrist) a striking hallucination in which the sun had an upright tail (*"similar to an erect penis,"*, Jung added), which moved back and forth, causing the wind to blow. It is only years later, as Jung became aware of a similar symbol in a recently translated Hellenistic text (The "Mithras Liturgy", part of the *Greek Magical Papyri*), which describes a wind originating from a pipe or tube hanging downright from the disc of the sun. Jung assumed that these two symbols were the same, and since the patient was unlikely to be familiar with this text [or so claimed Jung; see @noll1997jung for a detailed description of Jung's falsifications and lies], its the only possible origin was the collective unconscious.
 
 
 ```{r, echo = FALSE, fig.cap="Carl Jung (1875 - 1961)."}
@@ -82,6 +78,12 @@ knitr::include_graphics("img/jung.jpg")
 ```
 
 In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Through it, he expanded the notion of archetypes to the physical world itself, defining "psychoid" archetypes (the non-psychic aspect of the archetype) as fundamental principles of matter and energy, and mediators of the *unus mundus*.
+
+
+All in all, as we can see, Jungian archetypes were not given a single, clear, definition, being instead a rather fluid and evolving concept. However, some authors have attempted at breaking down the Jung's writing on archetypes into several distinct definitions. For instance, @knox2003archetype identifies four different conceptualizations of archetypes, as 1) biological entities, 2) organizing mental frameworks of an abstract nature, 3) core meanings containing representational content and 4) eternal metaphysical entities [@knox2003archetype, p. 24]. @roesler2012archetypes, on the other hand, suggests that archetypes can be defined 1) biologically, akin to instincts in other animals ["an archetype works in a human being in the same way as an instinct which, for example, makes birds build their nest in a certain way"; @jung1949foreword], 2) statistically (the complexes that are redundant and fall into the same category), 3) transcendentally (in relationship with the *unus mundus*, archetypes exist in no real place but in a transcendental plane), and 4) culturally (as the content of the archetypal image is culturally influenced). In summary, "There is no consistent theory of archetypes in Jung and, in my view, it is still missing in analytical psychology as a whole" [roesler2012archetypes, p. 229].
+
+
+
 
 
 ### Universality
@@ -101,36 +103,10 @@ knitr::include_graphics("img/jung_red_book_serpent.jpg")
 ```
 
 
-### Supposed Manifestations of Archetypes
-
-<!-- Dreams -->
-
-A large part of Jungian's model is rooted in the analysis of dreams. The (still lasting) popularity of his approach could be related to its imcreased straightforwardness, as compared to Freudian's more convoluted interpretation framework. Contrary to the latter, Jung believed that the meaning of a dream was directly present in the manifest content of the dream (i.e., what the dreamer experiences). 
-
-
-Jung distinguished two types of dreams: the archetypal and the everyday [@cann1986jungian]. Everyday dreams find their origin in the personal unconscious and are related to personal matters. Archetypal dreams, on the opposite, originate from the collective unconscious, and deal with universal themes. The best criterion for distinguishing archetypal dreams appears to be their lack of "everydayness" [@kluger1975archetypal; @cann1986jungian].
-
-
-
-<!-- Myths -->
-
-
-<!-- Stories -->
-
-<!-- Personality -->
-
-Jung classified personality types by using three pairs of opposites: *introversion* (directing interest and attention towards internal experiences and processes. ) - *extraversion* (directing interest and attention towards people and things in the external world), *sensation* (perceiving the presence and qualities of facts directly through the senses) - *intuition* (perceiving the relations in events and situations unconsciously), and *thinking* (organizing and judging experience on the basis of analysis and logic) - *feeling* (organizing and judging experience on the basis of importance, values, likes, and dislikes). 
-
-This model of personality is somewhat not too distant from modern accounts (such as the Big Five and its successors), especially regarding the introversion-extraversion axis. However, a distinction is to be made, as Jung's model does not incorporate one of the other personality dimension, namely *neurosis* (i.e., emotional instability), as such. Instead, Jung conceptualises neurosis as the opposite of psychosis, both related to the pattern relationship between the conscious and the unconscious. In summary, people with neurosis would be out of contact with the collective unconscious, whereas people with psychosis are too much in contact with it, at the expense of external reality (hence the strong interest of Jung for patients suffering from schizophrenia). Additionally, contrary to more recent models in which personality dimensions are conceptualised as to a large extent indepedendent (i.e., all combinations of personality traits are possible), the expression of Jungian's neurosis depends on other dimensions. For instance, the typical form of neurosis for people with high introverion is anxiety, and hysteria (characterized by high activity levels, physical complaints, and emotional volatility) for extroverts.
-
-Importantly for our topic, archetypes have not been directly connected with any personality profiles. Instead, Jung and his followers attempted to use their own conceptualisation of personality profiles (i.e., and of their configuration regarding the relationship between the conscious and the unconscious) to gather evidence in favour of their theory. For instance, by showing that people with high intuitiveness and low neuroticism recall more archetypal dreams [i.e., dreams with less "everydayness"; @kluger1975archetypal; @cann1986jungian].
-
-
-
 
 ### Archetypes as Parts of the Psyche
 
-Jung also named "archetypes" what could be seen as parts of the psyche. In particular, he focused on five of such dimensions: 
+Jung also referred to as archetypes in the context of the structure of the psyche. In particular, he focused on five of such components: 
 
 
 - The **Anima** and the **Animus** are the feminine and masculine aspects of our Psyche. He mentions four distinct levels of development for the feminine Anima, corresponding to its formation and evolution during the lifetime of an individual. *Eve* is the first stage, where the anima emerges in the shape of the male's object of desire. She then becomes *Helen* (of Troy, who sailed away from his husband), an independent and intelligent woman. She achieves virtue in *Mary* (the purest figure in Christian tradition), and finally becomes *Sophia*, the incarnation of the idea of divine wisdom. For the Animus, the main features of the four parallel stages of development include physical power (such as "the fictional jungle hero *Tarzan*"), action and romance (the *hero*), knowledge (professor or the clergyman), and spiritual wisdom (*Hermes*, the messenger of the gods). Like Sophia, it is considered the highest level of mediation between the unconscious and conscious mind. It is interesting to note the subtle mirroring of the feminine and masculine stages. While the first stages are both characterized by bodily needs and drives (sexual beauty and physical strength) and then action and commitment, the third stage underlines values of morality for the feminine and knowledge for the masculine, that could be seen as immaterial and material forms of wisdom. Finally, the last stage emphasizes a more spiritual and esoteric aspects of wisdom (Sophia and Hermes being two central figures in alchemy and others esoteric doctrines).
@@ -144,15 +120,6 @@ Jung also named "archetypes" what could be seen as parts of the psyche. In parti
 
 
 
-<!-- list -->
-Interestingly, while the archetypal images (the manifest motives) are usually the main focus and interest of subsequent authors (see below), it is important to note that Jung himself warned against such simplification. Such *"definite mythological images of motifs [...] are nothing more than conscious representations; it would be absurd to assume that such variable representations could be inherited"*. Again, the true archetypes for Jung were their deeper, instinctual, fluid sources – *"the 'archaic remnants', which I call 'archetypes' or 'primordial images'"* [@jung1964approaching].
-
-
-
-
-### Archetypes and Biology
-
-Interestingly, Jung, similarly to Freud, always made great efforts to portray his concepts as rooted in biology (after all, both were physicians by training), for instance in the case of archetypes, via supposed mechanisms of biological inheritance [which is no longer supported by modern genetics modern genetics; @roesler2012archetypes]. However, the most notable advances in that area were done by their followers, trying to adapt and accommodate psychodynamic concepts with discovers made in neuroscience and modern psychology.
 
 
 

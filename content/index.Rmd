@@ -12,6 +12,7 @@ link-citations: yes
 colorlinks: yes
 lot: yes
 lof: yes
+toc-depth: 3
 url: 'https://github.com/DominiqueMakowski/archetypes'
 github-repo: DominiqueMakowski/archetypes
 cover-image: "img/cover.png"
@@ -35,6 +36,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 # bookdown::render_book("index.Rmd", "bookdown::gitbook")
 # bookdown::render_book("index.Rmd", "bookdown::pdf_book", output_dir = "../pdf/")
+# bookdown::render_book("index.Rmd", "tufte::tufte_book", output_dir = "../pdf/")
 # bookdown::render_book("index.Rmd", "bookdown::word_document2", output_dir = "../pdf/")
 ```
 
