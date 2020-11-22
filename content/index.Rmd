@@ -1,0 +1,54 @@
+--- 
+title: "The Serpent in the Brain: A Neuroscientific Perspective on Archetypes"
+author: "Dr Dominique Makowski"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: 
+ bookdown::gitbook: default
+documentclass: book
+bibliography: bibliography.bib
+biblio-style: apalike
+link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+url: 'https://github.com/DominiqueMakowski/archetypes'
+github-repo: DominiqueMakowski/archetypes
+cover-image: "img/cover.png"
+description: "The Serpent in the Brain: A Neuroscientific Perspective on Archetypes. A book by Dr Dominique Makowski."
+---
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+# knitr::write_bib(c(
+#   .packages(), 'bookdown', 'knitr', 'rmarkdown'
+# ), 'packages.bib')
+
+
+knitr::opts_chunk$set(echo = FALSE, 
+                      message = FALSE,
+                      warning = FALSE,  
+                      out.width = "\\textwidth",
+                      # fig.width = "100%",
+                      fig.align = "center")
+
+# bookdown::render_book("index.Rmd", "bookdown::gitbook")
+# bookdown::render_book("index.Rmd", "bookdown::pdf_book", output_dir = "../pdf/")
+# bookdown::render_book("index.Rmd", "bookdown::word_document2", output_dir = "../pdf/")
+```
+
+
+
+<!-- This is a book cover that appears only in the HTML version -->
+```{r, echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), results='asis'}
+cat('# {-}')
+```
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://dominiquemakowski.github.io/archetypes/preface.html'}
+knitr::include_graphics('img/cover.png', dpi = NA)
+```
+```{r, echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), results='asis'}
+cat('<p align="center">***Click on the right arrow to start reading.***</p>')
+```
+
+

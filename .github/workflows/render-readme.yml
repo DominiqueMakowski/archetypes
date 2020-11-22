@@ -16,7 +16,7 @@ jobs:
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown", "bookdown"), dependencies = TRUE)'
       - name: Render README
-        run: Rscript -e 'rmarkdown::render("_README.Rmd", "md_document", output_file = "README.md")'
+        run: Rscript -e 'rmarkdown::render("README.Rmd", "md_document", output_file = "README.md")'
       - name: Commit results
         run: |
           git fetch origin

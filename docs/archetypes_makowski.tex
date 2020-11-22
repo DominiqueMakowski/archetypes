@@ -1,16 +1,18 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
 %
 \documentclass[
 ]{book}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
+\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -37,11 +39,16 @@
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
   pdftitle={The Serpent in the Brain: A Neuroscientific Perspective on Archetypes},
-  pdfauthor={Dr.~Dominique Makowski},
-  hidelinks,
+  pdfauthor={Dr Dominique Makowski},
+  colorlinks=true,
+  linkcolor=Maroon,
+  filecolor=Maroon,
+  citecolor=Blue,
+  urlcolor=Blue,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -50,7 +57,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -75,22 +82,39 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\let\oldmaketitle\maketitle
+\AtBeginDocument{\let\maketitle\relax}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{The Serpent in the Brain: A Neuroscientific Perspective on Archetypes}
-\author{Dr.~Dominique Makowski}
-\date{2020-04-16}
+\author{Dr Dominique Makowski}
+\date{2020-11-22}
 
 \begin{document}
 \maketitle
 
+\thispagestyle{empty}
+\begin{center}
+\includegraphics[width=\textwidth]{img/cover.png}
+\end{center}
+
+\let\maketitle\oldmaketitle
+\maketitle
+
 {
+\hypersetup{linkcolor=}
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{introduction}{%
-\chapter{Introduction}\label{introduction}}
+\listoftables
+\listoffigures
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
 
 \textbf{\emph{Disclaimer:} This is a compilation of thoughts that might be someday used in a fictional novel. It does \emph{not} reflect any personal beliefs.}
 
@@ -102,11 +126,13 @@ The idea that the mind is deeply organized along universal lines has always been
 
 \textbf{But beyond the scent of pseudo-science that emanates from this concept, do archetypes make any scientific sense?}
 
-Archetypes, as they are commonly defined and conceptualized (i.e., with a Jungian-based psychodynamic approach), are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment, and functional or structural neuroanatomy. Similarly, research on personality and psychological inter-individual differences does not support the existence of profiles that would resemble commonly described archetypal figures (for example the warrior, the hero or the wise old man). Nonetheless, I think (and hope), that a scientific approach to archetypism (the study of psychological archetypes) is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology, and neuroscience.
+Archetypes, as they are commonly defined and conceptualized (i.e., anchored within a Jungian psychodynamic approach), are hardly compatible with the current scientific knowledge. For instance, Jung's collective unconscious has no place in light of what we know about neurogenesis, neurodevelopment, and functional or structural neuroanatomy. Similarly, research on personality and psychological inter-individual differences does not support the existence of profiles that would resemble commonly described archetypal figures (for example the warrior, the hero or the old man). Nonetheless, I think (and hope), that a scientific approach to archetypism (the study of psychological archetypes) is possible and potentially interesting. Thus, the goal of this book is to provide a new and rational perspective on archetypes, informed by biology, psychology, and neuroscience.
 
-My own journey started as a naive interest for psychoanalysis in general, and a particular appeal for the deeply hidden core(s) of our being. But that original appeal did not last very long. The first blow was given by the \emph{black book of psychoanalysis} \citep[``Le livre noir de la psychanalyse'';][]{borch2005livre}, that superbly and elegantly exposes and deconstructs most of the psychodynamic approach. And yet, my disillusionment was not complete, as Jung's ``Depth Psychology'' somehow resisted and maintained some level of magnetism in the back of my mind. Indeed, possibly related to my shared interest for myths and history of religions, or to some other unconscious motivation, I found Jungian mythological and cross-cultural perspective attractive (or, at least, interesting). But as my knowledge grew, I could no longer ignore the evidence. And the evidence is presented on a golden plate through the excellent book titled ``Jung et les archétypes. Un mythe contemporain'', in which \citet{lequellec2013jung} casts doubt (if not fire) upon the whole Jungian enterprise. Reading it finally cured from all psychodynamic non-sense. But it left me wondering; what is left of the archetypes in this landscape of burning ashes?
+My own journey started even before entering university, as a naive interest for psychoanalysis in general, and a particular appeal for the deeply hidden core(s) of our being. But that original appeal did not last very long. The first blow was given by the \emph{Black Book of Psychoanalysis} \citep[``Le livre noir de la psychanalyse'';][]{borch2005livre}, that superbly and elegantly exposes and deconstructs most of the psychodynamic approach. And yet, my disillusionment was not complete, as Jung's ``Depth Psychology'' somehow resisted and maintained some level of magnetism in the back of my mind. Indeed, possibly related to my shared interest for myths and history of religions, or to some other unconscious motivation, I found Jungian mythological and cross-cultural perspective attractive (or, at least, interesting). But as my knowledge grew, I could no longer ignore the evidence\ldots{} And that evidence is presented on a golden plate in the excellent book titled ``Jung et les archétypes. Un mythe contemporain'', in which \citet{lequellec2013jung} casts compelling doubt (if not fire) upon the whole Jungian enterprise. Reading it finally cured from all psychodynamic non-sense. But it left me wondering; what is left of archetypes in this landscape of burning ashes?
 
 \textbf{As a phoenix, can this idea be reborn?}
+
+This book is first attempt to connect the notion of archetypes with scientific evidence. In the following chapters, I will start by a brief overview of the current landscape of archetypism, as it is found in self-help books and posts. Interestingly, the scientific literature on the topic is scare, if not inexistent. Thus, in the second part, I will try to bridge the concept of archetypes with existing concepts and theories in modern psychology and neuroscience. Finally, based in an evolutionary perspective, I will outline a new definition of archetypes and will suggest some ideas related to a plausible conceptualisation of archetypes. I will conclude by discussing the limitations for the scientific investigation of archetypes (related for instance to the bidirectional causality of its genesis) and future directions.
 
 \begin{figure}
 
@@ -114,7 +140,7 @@ My own journey started as a naive interest for psychoanalysis in general, and a 
 
 }
 
-\caption{Phoenix illumination from the Aberdeen Bestiary (12th century).}\label{fig:unnamed-chunk-3}
+\caption{Phoenix illumination from the Aberdeen Bestiary (12th century).}\label{fig:unnamed-chunk-5}
 \end{figure}
 
 \hypertarget{history-of-archetypes}{%
@@ -122,31 +148,77 @@ My own journey started as a naive interest for psychoanalysis in general, and a 
 
 Placeholder
 
-\hypertarget{carl-jung-1875---1961}{%
-\section{Carl Jung (1875 - 1961)}\label{carl-jung-1875---1961}}
+\hypertarget{jung-and-his-archetypes}{%
+\section{Jung and his Archetypes}\label{jung-and-his-archetypes}}
 
-\hypertarget{philosophical-roots}{%
-\section{Philosophical roots}\label{philosophical-roots}}
+\hypertarget{historical-and-philosophical-context}{%
+\subsection{Historical and philosophical context}\label{historical-and-philosophical-context}}
+
+\hypertarget{the-collective-unconscious}{%
+\subsection{The Collective Unconscious}\label{the-collective-unconscious}}
+
+\hypertarget{jungs-definitions}{%
+\subsection{Jung's Definition(s)}\label{jungs-definitions}}
+
+\hypertarget{universality}{%
+\subsection{Universality}\label{universality}}
+
+\hypertarget{supposed-manifestations-of-archetypes}{%
+\subsection{Supposed Manifestations of Archetypes}\label{supposed-manifestations-of-archetypes}}
+
+\hypertarget{archetypes-as-parts-of-the-psyche}{%
+\subsection{Archetypes as Parts of the Psyche}\label{archetypes-as-parts-of-the-psyche}}
+
+\hypertarget{archetypes-and-biology}{%
+\subsection{Archetypes and Biology}\label{archetypes-and-biology}}
+
+\hypertarget{neojungian-archetypes}{%
+\section{Neojungian Archetypes}\label{neojungian-archetypes}}
 
 \hypertarget{archetypal-interpretation-of-the-tarot}{%
-\section{Archetypal Interpretation of the Tarot}\label{archetypal-interpretation-of-the-tarot}}
+\subsection{Archetypal Interpretation of the Tarot}\label{archetypal-interpretation-of-the-tarot}}
 
 \hypertarget{joseph-campbell-1904---1987}{%
-\section{Joseph Campbell (1904 - 1987)}\label{joseph-campbell-1904---1987}}
+\subsection{Joseph Campbell (1904 - 1987)}\label{joseph-campbell-1904---1987}}
 
 \hypertarget{robert-moore-1942---2016}{%
-\section{Robert Moore (1942 - 2016)}\label{robert-moore-1942---2016}}
+\subsection{Robert Moore (1942 - 2016)}\label{robert-moore-1942---2016}}
 
 \hypertarget{carol-pearson-1944---present}{%
-\section{Carol Pearson (1944 - Present)}\label{carol-pearson-1944---present}}
+\subsection{Carol Pearson (1944 - Present)}\label{carol-pearson-1944---present}}
 
 \hypertarget{other-developpments}{%
-\section{Other Developpments}\label{other-developpments}}
+\subsection{Other Developpments}\label{other-developpments}}
+
+\hypertarget{critiques-and-problems-of-archetypes}{%
+\section{Critiques and Problems of Archetypes}\label{critiques-and-problems-of-archetypes}}
+
+Until now, we tred presenting the different views and claims neutrally. However,
+
+One major stream of critiques is directed at Jung himself, for his alleged ethnocentrism, racism, colonial mindset, and sympathies for the Nazi regime (see this REFERENCE for an overview of the critiques). But what is more relevant for the topic at hand are the issues pertaining to his developpment of the concept of archetypes.
+
+\hypertarget{issues-with-jungian-archetypes}{%
+\subsection{Issues With Jungian Archetypes}\label{issues-with-jungian-archetypes}}
+
+\hypertarget{issues-with-the-concept-itself}{%
+\subsection{Issues with the concept itself}\label{issues-with-the-concept-itself}}
+
+Circular reasoning.
+
+\hypertarget{future-directions}{%
+\subsection{Future Directions}\label{future-directions}}
+
+The psychologist James Hillman suggested to eliminate the noun archetype altogether, while preserving the adjective \emph{archetypal}.
+
+Another possibility is to try to redefine archetypes precisely, and redefine them in a way that makes compatible with scientific investigation and useful for theory or practice (as archetypes are one of the tools used in psychoanalytical therapy). This is the aim of the next chapter.
 
 \hypertarget{a-scientific-archetypism}{%
 \chapter{A Scientific Archetypism}\label{a-scientific-archetypism}}
 
 Placeholder
+
+\hypertarget{universal-truths-about-humans}{%
+\section{Universal Truths about Humans}\label{universal-truths-about-humans}}
 
 \hypertarget{from-theory-to-application}{%
 \section{From Theory to Application}\label{from-theory-to-application}}
@@ -263,17 +335,66 @@ Attempts have been made to map archetypes unto brain structures \citep{samuels20
 
 That being said, if archetypes are engrammed into the cognitive system, a biological basis has to exist. One potential answer is to reframe archetypism under the predictive coding framework. As such, archetypes could be seen as meta-priors.
 
-\hypertarget{archetypal-stories}{%
-\chapter{Archetypal stories}\label{archetypal-stories}}
+\hypertarget{archetypal-stories-and-motifs}{%
+\chapter{Archetypal stories and motifs}\label{archetypal-stories-and-motifs}}
 
-\textbf{\emph{Warning:} This is a work in progress, i.e., currently just a collection of unstructured information.}
+Placeholder
 
-Common motives in religions and myths beg the question of the existence or plausibility of archetypal stories.
+\hypertarget{the-battle-against-the-serpent}{%
+\section{The Battle against the Serpent}\label{the-battle-against-the-serpent}}
+
+\hypertarget{gods-from-above}{%
+\section{Gods from Above}\label{gods-from-above}}
+
+\hypertarget{underground-place}{%
+\section{Underground Place}\label{underground-place}}
+
+\hypertarget{cataclysm}{%
+\section{Cataclysm}\label{cataclysm}}
+
+\hypertarget{flood-myths}{%
+\subsection{Flood Myths}\label{flood-myths}}
+
+\hypertarget{sacrifice-of-god}{%
+\section{Sacrifice of God}\label{sacrifice-of-god}}
+
+\hypertarget{prometheus}{%
+\subsection{Prometheus}\label{prometheus}}
+
+\hypertarget{jesus}{%
+\subsection{Jesus}\label{jesus}}
+
+\hypertarget{flood-survivor}{%
+\section{Flood Survivor}\label{flood-survivor}}
+
+\hypertarget{atrahasis}{%
+\subsection{Atrahasis}\label{atrahasis}}
+
+\hypertarget{utnapishtim}{%
+\subsection{Utnapishtim}\label{utnapishtim}}
+
+\hypertarget{noah}{%
+\subsection{Noah}\label{noah}}
+
+\hypertarget{murder-of-sibling}{%
+\section{Murder of sibling}\label{murder-of-sibling}}
+
+\hypertarget{set-and-osiris}{%
+\subsection{Set and Osiris}\label{set-and-osiris}}
+
+\hypertarget{cain-and-abel-biblic}{%
+\subsection{Cain and Abel (Biblic)}\label{cain-and-abel-biblic}}
+
+\hypertarget{baldr-and-hodr-norse}{%
+\section{Baldr and Hodr (Norse)}\label{baldr-and-hodr-norse}}
 
 \hypertarget{the-origin-of-religions}{%
 \chapter{The Origin of Religions}\label{the-origin-of-religions}}
 
 Placeholder
+
+\hypertarget{archeological-findings}{%
+\section{Archeological Findings}\label{archeological-findings}}
 
 \hypertarget{scientific-theories-of-religion}{%
 \section{Scientific Theories of Religion}\label{scientific-theories-of-religion}}
@@ -293,6 +414,6 @@ Placeholder
 \hypertarget{classical-elements}{%
 \section{Classical Elements}\label{classical-elements}}
 
-  \bibliography{book.bib,packages.bib}
+  \bibliography{bibliography.bib}
 
 \end{document}
