@@ -1,21 +1,20 @@
-README
-================
-
-# The Serpent in the Brain: A Neuroscientific Perspective on Archetypes
+The Serpent in the Brain: A Neuroscientific Perspective on Archetypes
+=====================================================================
 
 <a href="https://dominiquemakowski.github.io/archetypes/">
 <img src='img/cover_border.png' align="right" height="500" /> </a>
 
------
+------------------------------------------------------------------------
 
-  - Read online
+-   Read online
     [**here**](https://dominiquemakowski.github.io/archetypes/)
-  - Download the pdf
+-   Download the pdf
     [**here**](https://github.com/DominiqueMakowski/archetypes/raw/master/pdf/archetypes_makowski.pdf)
 
------
+------------------------------------------------------------------------
 
-# Preface
+Preface
+=======
 
 ***Disclaimer:* This is a compilation of thoughts that might be someday
 used in a fictional novel. It does *not* reflect any personal beliefs.**
@@ -23,7 +22,7 @@ used in a fictional novel. It does *not* reflect any personal beliefs.**
 ***Warning:* This is a work in progress, being currently just a
 collection of unstructured information.**
 
------
+------------------------------------------------------------------------
 
 The idea that the mind is deeply organized along universal lines has
 always been fascinating to me. Although strongly criticized and mostly
