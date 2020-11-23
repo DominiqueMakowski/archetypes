@@ -1,8 +1,8 @@
-# Archetypes and Modern Science
+# Archetypes and Science
 
 > _We Jungians cannot go on basing our theory of archetypes on scientific assumptions which have been falsified by more recent research if we do not want to run the risk of becoming ridiculous in the scientific world._
 >
-> `r tufte::quote_footer('--- Christian Roesler')`
+> `r tufte::quote_footer('--- Christian Roesler (2012)')`
 
 To summarize, the Jungian psychodynamic approach postulates that there is an unconscious but universal part of the mind that would be filled with shapes that, when filled with content, would give rise to recurrent images that create a strong subjective impression (are assessed as deep and meaningful), yet deep and meaningful images. Naturally, the fact that archetypes *per se* are by nature inaccessible, and that their only manifest and indirect "proof" of existence are a category which only defining property is subjective experience, poses a challenge for scientific investigation. 
 
@@ -100,6 +100,9 @@ Attempts have been made to map archetypes unto brain structures [@samuels2003jun
 That being said, if archetypes are engrammed into the cognitive system, a biological basis has to exist. One potential answer is to reframe archetypism under the predictive coding framework. As such, archetypes could be seen as meta-priors.
 
 
+### Predictive Coding
+
+Archetypes as priors.
 
 ## Psychology
 

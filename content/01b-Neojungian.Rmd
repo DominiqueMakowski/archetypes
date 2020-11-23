@@ -3,32 +3,42 @@
 The current state of archetypism is mostly dominated by so-called neojungian authors, using the concept of archetypes to refer to a wide variety of phenomena, including objects and beings (e.g., the snake), narrative patterns (e.g., the hero), symbols and images (e.g., the cross), or practices and rituals (e.g., the sacrifice). Importantly, they view archetypes as an explanatory theory for psychological and cultural phenomena. For instance, it is used to explain the similarities between fairy tales from different parts of the world. This explanatory usage dates back to Jung himself, that drew on patterns derived from myth (e.g. the story of the hero) to explain the psychopathological fantasies of his patients. 
 
 
-It is important to remember that psychoanalysis, aside from a psychological approach, has also developed as a therapeutic practice. Thus, the shift in neojungian approaches, from a highly abstract and conceptual definition of archetypes, to a more applied and useful usage is not surprising. Archetypes are indeed heavily used in Jungian therapy, with the idea that universal patterns of healthy development are given to all human beings, that can be activated in the process of analysis to guide the therapy to a good end [@roesler2012archetypes].
+It is important to remember that psychodynamic approaches, aside from being a philosophical framework, have also developed as therapeutic practices. Thus, the progressive shift in neojungian authors, from a highly abstract and conceptual definition of archetypes, to a more applied and useful usage is not surprising. Archetypes are indeed heavily used in Jungian therapy, with the idea that universal patterns of healthy development are given to all human beings, that can be activated in the process of analysis to guide the therapy to a good end [@roesler2012archetypes].
 
-A concrete use of archetypes in clinical practice is to connect an image, pattern or symbol in the dream of a client to a mythological story or a fairy tile. This allows the unconscious of the client to relate to a broader archetypal pattern which contains additional helpful information. In other words, archetypes are transporters of information which can foster psychological development.
+A concrete example of the use of archetypes in clinical practice is to connect an image, pattern or symbol in the dream of a client to a mythological story or a fairy tale. This allows the unconscious of the client to relate to a broader archetypal pattern which contains additional helpful information. In other words, archetypes are transporters of information which can foster psychological development.
 
 ### E. Neumann (1905 - 1960) and the Great Mother
-
-https://en.wikipedia.org/wiki/The_Great_Mother
-
-Despite being one of Jung’s most gifted students, Erich Neumann is a figure whose history is relatively little known. Born in Berlihe attended university in Nuremberg, studying philosophy and psychology, Neumann went on to study medicine but was denied an internship because of the race laws introduced by the Nazi government. Having decided in 1933 to emigrate to Palestine, he travelled first to Zürich where he met Jung, thirty years his senior. Neumann decided to stay in Zürich and enter analysis with Jung, while his wife Julia entered analysis with Jung's wife Emma. After nearly a year of analysis, the coupled qualified as analysts (note that in most psychodynamic streams, undergoing an analysis is the sole qualifying criterion to become an analyst). 
-
-
-Neumann published *The Origins and History of Consciousness* in 1949, in which he suggests that the consciousness of individuals and of the collective groups developed in parallel. Drawing on a range of myths, Neumann suggests that most cultures produce a succession of archetypes intended to enhance individual self-awareness and maturity. Cultures also developed psychologically, evolving from a collective tribal maternal archetype to a paternal archetype, embodied in a prophet. This archetype eventually became repressive and was replaced by a more modern archetype based on individual responsibility. 
-
-<!-- GREAT MOTHER  -->
-https://en.wikipedia.org/wiki/The_Great_Mother
-https://www.bu.edu/arion/files/2010/03/Paglia-Great-Mother1.pdf
-https://www.tate.org.uk/art/research-publications/henry-moore/tim-martin-erich-neumann-on-henry-moore-public-sculpture-and-the-collective-unconscious-r1151316#fn_1_2
-
-
-Neumann's work will find a strong echo in art and anthropology, influential for instance for the archaeologist Marija Gimbutas, author of *The Goddesses and Gods of Old Europe* (1974) and *The Civilization of the Goddess* (1991). In her work, she suggests that the Old Europe (pre-indo-european civilization) was composed of woman-centered societies that were peaceful and equalitarian, later supplanted by an indo-european patriarchal and warrior-like culture. However, she will prefer to use the term "Great Goddess" instead of Great Mother to refer to this primordial figure, best describing her absolute rule, her creative, destructive, and regenerative powers.
-
-
 
 ```{r, echo = FALSE, fig.cap="Neumann's Great Mother."}
 knitr::include_graphics("img/neumann_feminine.jpg")
 ```
+
+Despite being one of Jung's most gifted students, Erich Neumann is a figure whose history is relatively little known. He attended university in Nuremberg, studying philosophy and received his PhD in 1927. Intrigued by psychoanalysis, Neumann began medical studies but was denied an internship because of the race laws affecting Jews introduced by the Nazi government. Having decided in 1933 to emigrate to Palestine, he travelled first to Zürich where he met Jung, thirty years his senior. Neumann decided to stay in Zürich and enter analysis with Jung, while his wife Julia entered analysis with Jung's wife Emma. After nearly a year of analysis, the coupled qualified as analysts (note that in most psychodynamic streams, undergoing an analysis is the sole qualifying criterion to become an analyst). Anecdotally, Neuman's wife earned a high reputation as a professional palm reader.
+
+
+Neumann published *The Origins and History of Consciousness* in 1949, in which he develops a "psycho-history", arguing that each individual's psychological developpment recapitulates the history of humanity. Drawing on a range of myths [but hardly ever referring to any dates or datable events; @giegerich1992ontogeny], Neumann suggests that most cultures produce a succession of archetypes intended to enhance individual self-awareness and maturity. He charts what he calls "the mythological stages in the evolution of consciousness", including the creation myth, the hero myth, and the transformation myth (identified with the Egyptian god Osiris). In his view, cultures are also subject to psychological development, evolving from a collective tribal maternal archetype to a paternal archetype, embodied in a prophet. This archetype eventually became repressive and was replaced by a more modern archetype based on individual responsibility. 
+
+<!-- The Earth -->
+Interested in how archetypes might be used to encourage modern individual and collective maturation, he then started examining the changing meanings of the *Earth archetype* from the middle ages onwards. Noticing, for example, how his own growing love of the Palestinian desert had matured his Zionist convictions, Neumann concluded that its recent re-emergence as the image of one's bond with the land, was crucial to the religious sentiments of modern man.
+
+<!-- GREAT MOTHER  -->
+In his next and most ambitious book, *The Great Mother: An Analysis of the Archetype* (1955), Neumann traces the genealogy and symbolism of goddess figures in world culture. He describes this elemental feminine archetype as a dual figure related to positive aspects, such as release and growth, and inspiration and wisdom, but also to negative aspects, such as retention and devouring, or expulsion and rejection (see diagram). Neumann argued that western monotheist cultures needed to rediscover this archetype to counterbalance the dominant patriarchal consciousness that, if left unchecked, could descend into a brutal masculine ethos, as seen in Nazi Germany.
+
+He proposes to place several important feminine figures along three axes of opposing polarities (positive-negative) composing the Great Mother matrix, namely the Mother, the Anima, and the Transformation. In this framework, Lilith (Adam's first wife) is close to the negative Anima (ecstasy, madness, impotence, stupor), whereas Sophia (the Greek incarnation of divine wisdom) embodies the positive Anima (wisdom, vision, inspiration, ecstasy). Isis (the wife of Osiris and the mother of Horus) is the good Mother (fruit, birth, rebirth, immortality), as opposed to Hecate (the Greek goddess associated with the underworld, magic, and sorcery), the terrible Mother (sickness, dismemberment, death, extinction).
+
+Neumann then tracks the evolution of feminine archetypes from the original *Ouroboros archetype* (the ouroboros being a symbol depicting a serpent-like figure eating its own tail), the "Great Round", representing the primordial unconscious. He suggests that the psychological development of humans, and humankind develops in stages, beginning with the 'matriarchal' stage, symbolized by the Ouroboros, in which the archetype of the Great Mother dominates. In this stage, the ego and the unconscious are fused and form a psychic unity. In the second stage dominates the *Great Father archetype* (associated with rationalism and monotheism), whose invasion is perceived as a destroyer or rapist. In his third stage, the male hero and liberates the young woman from the controlling father. The Great Mother archetype is finally transcended by the male-dominated *Hero archetype*, which victory marks the emergence of the ego consciousness from the unconscious. 
+
+<!-- https://en.wikipedia.org/wiki/The_Great_Mother -->
+<!-- https://www.bu.edu/arion/files/2010/03/Paglia-Great-Mother1.pdf -->
+<!-- https://www.tate.org.uk/art/research-publications/henry-moore/tim-martin-erich-neumann-on-henry-moore-public-sculpture-and-the-collective-unconscious-r1151316#fn_1_2 -->
+
+
+Neumann's work will find a strong echo in art and anthropology, influential for instance for the archaeologist Marija Gimbutas, author of *The Goddesses and Gods of Old Europe* (1974) and *The Civilization of the Goddess* (1991), in which she prefers to use the term "Great Goddess" instead of Great Mother, best describing the absolute rule, as well as the creative, destructive, and regenerative powers of this primordial figure. In her work, she suggests that the Old Europe (pre-indo-european civilization) was composed of woman-centred societies that were peaceful and egalitarian, later supplanted by an indo-european patriarchal and warrior-like culture. This theory is related to Bachofen's (1815 - 1887) theory of matriarchy, postulating the existence of literal prehistoric matriarchal societies, for which no evidence has ever been found. In fact, Neumann himself insists that the matriarchal stage "refers to a structural layer and not to any historical epoch." 
+
+<!-- The Child -->
+Neumann's posthumously published work *The Child* (1973), Neumann also uses the *Ouroboros archetype* to describe his view on the initial psychic condition in early childhood. For instance, he discusses the "uroboric stage" of development in the context of the symbiotic relationship between the mother and her children [@giegerich1992ontogeny]. He recognizes the Ouroboros in many instances, such as the paradise, the womb, the grave, the mandala, Heaven and Earth, Okeanos and Purusha... and from there makes inference about phases of development of consciousness.
+
+
 
 
 ### J. Campbell (1904 - 1987) and the Monomyth
@@ -37,13 +47,23 @@ knitr::include_graphics("img/neumann_feminine.jpg")
 >
 > `r tufte::quote_footer('--- Joseph Campbell')`
 
-In "The Hero with a Thousand Faces", @campbell1949hero, inspired by Jung, presents his theory of the mythological structure of the journey of the archetypal hero extracted by comparing myths from different regions of the world. Coined the "Hero's Journey", he describes the ultimate narrative archetype as a "monomyth" (a recurring mythological motif). 
-
-Importantly to our topic of archetypes, he identifies common tropes or characters that take part in this meta-narrative. For instance, the young hero, the wise old man or woman, the goddess, the temptress and the shadowy antagonist, that he relates to archetypes. He suggests that such myths and stories have a narrative structure that mirrors or echoes the psychological structure of the mind, which is the reason of their power.
-
 ```{r, echo = FALSE, fig.cap="Campbell's (1949) 17 stages of the hero's journey."}
 knitr::include_graphics("img/monomyth.png")
 ```
+
+
+Joseph Campbell, a colleague of Neumann's in the Swiss Eranos conferences, 
+
+
+In "The Hero with a Thousand Faces" (which supposedly inspired George Lucas' *Star Wars*), @campbell1949hero, inspired by Jung, presents his theory of the mythological structure of the journey of the archetypal hero extracted by comparing myths from different regions of the world. Coined the "Hero's Journey", he describes the ultimate narrative archetype as a "monomyth" (a recurring mythological motif). 
+
+Importantly to our topic of archetypes, he identifies common tropes or characters that take part in this meta-narrative. For instance, the young hero, the wise old man or woman, the goddess, the temptress and the shadowy antagonist, that he relates to archetypes. He suggests that such myths and stories have a narrative structure that mirrors or echoes the psychological structure of the mind, which is the reason of their power.
+
+
+
+### J. Hillman's (1926 - 2011) Archetypal psychology
+
+https://en.wikipedia.org/wiki/James_Hillman
 
 ### R. Moore (1942 - 2016) and the 4 Archetypes
 

@@ -1,20 +1,18 @@
 # History of Archetypes
 
-***Warning:* This is a work in progress, i.e., currently just a collection of unstructured information.**
+> _All the most powerful ideas in history go back to archetypes._
+>
+> `r tufte::quote_footer('--- C. G. Jung (1960)')`
+
+The idea of ancient and primitive entities and forces guiding men and civilizations is by any means new, and was certainly not unpopular in the early 20th century. Nonetheless, C. G. Jung (1875 - 1961) was the first to define, describe and popularize a psychological concept that will be the basis for archetypes as they are commonly understood today. 
+Jung's theory, through its interesting ideas as well as limitations, is thus a relevant starting point to understand how archetypes evolved from inaccessible entities which can be used to investigate the hidden core of Humanity, to stereotypical images, used predominantly to achieve individual goals (for instance well-being, growth or success).
 
 
 
 ## C. G. Jung (1875 - 1961) and his Archetypes
 
-> _All the most powerful ideas in history go back to archetypes._
->
-> `r tufte::quote_footer('--- C. G. Jung')`
 
-
-The idea of ancient and primitive entities and forces guiding men and civilizations is by any means new, and was certainly not unpopular in the early 20th century. Nonetheless, C. G. Jung (1875 - 1961) was the first to define, describe and popularize a psychological concept that will be the basis for archetypes as they are commonly understood today. 
-Jung's theory, through its interesting ideas as well as limitations, is thus a relevant starting point to understand how archetypes evolved from inaccessible entities which can be used to investigate the hidden core of Humanity, to stereotypical images, used predominantly to achieve individual goals (for instance well-being, self-growth or success).
-
-
+The archetypes are a complex and proteiform concept in Jung's work, with multiple, sometimes exclusive and conflicting definitions. They are, at the same time, the product of his investigations (through the analysis of texts, stories, or mental productions of patients), as well as a tool used to give meaning to obscure patterns and objects. Jung himself mentions earlier roots and sources of inspiration, such as Plato's *Idea* as the origin or philosophical basis for his theory of archetypes. Jung also linked them to Kantian *categories*, i.e., to a priori conditions for possible experiences, as the imagination and fantasy counterparts of Kant's logical categories of reason. However, as we will see, the initial influence might have been less that of these major philosophers, but actually related to an interest in the esoteric and the occult, quite popular in the intellectual milieu of Jung's time.
 
 ### Historical and philosophical context
 
@@ -32,19 +30,6 @@ It is also a time of political unrest, when identities of nations and people are
 
 In summary, although not named nor formally defined as a psychological concept, the idea of archetypes, as well as some form of phylogenetic or racial unconscious was common in the intellectual circles around 1900 [@shamdasani2003cult]. It was a fertile ground waiting to be ploughed.
 
-
-
-<!-- ### Philosophical roots -->
-<!-- , although deeper and earlier roots and sources of inspiration are often mentioned (for instance, by Jung himself). Regarding these often-cited "ancient roots" of archetypes-related ideas, it is important to note, however, that they usually take the form of posterior re-interpretations done through a Jungian lens (eventually leading to deformations and misinterpretation of the original ideas) -->
-<!-- It is common to mention Plato's Idea as the origin or philosophical basis for archetypes, mainly because of Carl Jung's supposed inspiration.  -->
-
-<!-- Pre-Jungian Usages of the Word: -->
-
-<!-- - Plato's idea theory -->
-<!-- - segue into Christian philosophy -->
-<!-- - Descartes (?) -->
-
-<!-- Jung likened these archetypes to Kantian categories — that is, to a priori conditions for possible experiences. Jung proposed extending the Kantian idea of the logical categories of reason to the production of fantasy; the archetypes, Jung says, are “categories of the imagination.” -->
 
 
 
@@ -80,7 +65,7 @@ knitr::include_graphics("img/jung.jpg")
 In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Through it, he expanded the notion of archetypes to the physical world itself, defining "psychoid" archetypes (the non-psychic aspect of the archetype) as fundamental principles of matter and energy, and mediators of the *unus mundus*.
 
 
-All in all, as we can see, Jungian archetypes were not given a single, clear, definition, being instead a rather fluid and evolving concept. However, some authors have attempted at breaking down the Jung's writing on archetypes into several distinct definitions. For instance, @knox2003archetype identifies four different conceptualizations of archetypes, as 1) biological entities, 2) organizing mental frameworks of an abstract nature, 3) core meanings containing representational content and 4) eternal metaphysical entities [@knox2003archetype, p. 24]. @roesler2012archetypes, on the other hand, suggests that archetypes can be defined 1) biologically, akin to instincts in other animals ["an archetype works in a human being in the same way as an instinct which, for example, makes birds build their nest in a certain way"; @jung1949foreword], 2) statistically (the complexes that are redundant and fall into the same category), 3) transcendentally (in relationship with the *unus mundus*, archetypes exist in no real place but in a transcendental plane), and 4) culturally (as the content of the archetypal image is culturally influenced). In summary, "There is no consistent theory of archetypes in Jung and, in my view, it is still missing in analytical psychology as a whole" [roesler2012archetypes, p. 229].
+All in all, as we can see, Jungian archetypes were not given a single, clear, definition, being instead a rather fluid and evolving concept. However, some authors have attempted at breaking down the Jung's writing on archetypes into several distinct definitions. For instance, @knox2003archetype identifies four different conceptualizations of archetypes, as 1) biological entities, 2) organizing mental frameworks of an abstract nature, 3) core meanings containing representational content and 4) eternal metaphysical entities [@knox2003archetype, p. 24]. @roesler2012archetypes, on the other hand, suggests that archetypes can be defined 1) biologically, akin to instincts in other animals ["an archetype works in a human being in the same way as an instinct which, for example, makes birds build their nest in a certain way"; @jung1949foreword], 2) statistically (the complexes that are redundant and fall into the same category), 3) transcendentally (in relationship with the *unus mundus*, archetypes exist in no real place but in a transcendental plane), and 4) culturally (as the content of the archetypal image is culturally influenced). In summary, "There is no consistent theory of archetypes in Jung and, in my view, it is still missing in analytical psychology as a whole" [@roesler2012archetypes, p. 229].
 
 
 
