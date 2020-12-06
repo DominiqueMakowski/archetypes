@@ -12,7 +12,22 @@ Jung's theory, through its interesting ideas as well as limitations, is thus a r
 ## C. G. Jung (1875 - 1961) and his Archetypes
 
 
-The archetypes are a complex and proteiform concept in Jung's work, with multiple, sometimes exclusive and conflicting definitions. They are, at the same time, the product of his investigations (through the analysis of texts, stories, or mental productions of patients), as well as a tool used to give meaning to obscure patterns and objects. Jung himself mentions earlier roots and sources of inspiration, such as Plato's *Idea* as the origin or philosophical basis for his theory of archetypes. Jung also linked them to Kantian *categories*, i.e., to a priori conditions for possible experiences, as the imagination and fantasy counterparts of Kant's logical categories of reason. However, as we will see, the initial influence might have been less that of these major philosophers, but actually related to an interest in the esoteric and the occult, quite popular in the intellectual milieu of Jung's time.
+The archetypes are a complex and proteiform concept in Jung's work, with multiple, sometimes exclusive and conflicting definitions. They are, at the same time, the product of his investigations (through the analysis of texts, stories, or mental productions of patients), as well as a tool used to give meaning to obscure patterns and objects. Importantly, this concept does not emerge *ex nihilo*. Indeed, older roots, sources of inspiration and usages of the word 'archetypes' can be traced in earlier philosophical or historical works.  
+
+Jung himself, later in his career, attempted at reconstructing the history of the usage of the word 'archetype' [@spineto2008notion]. Notably, he emphasizes Plato's *Idea* as the origin or philosophical basis for his theory of archetypes.
+
+> 'Archetype' is an explanatory paraphrase of the Platonic eidos. For our purposes this term is apposite and helpful, because it tells us that so far as the collective unconscious contents are concerned we are dealing with archaicor - I would say - primordial types, that is, with universal images that have existed since the remotest times (Jung, 1969, pp. 4–5).
+
+Jung also mentions other philosophical sources of inspiration, such as Philo, who linked the archetype to God's image present in man, Irenaeus, for whom the archetypes were the models of creation, the Corpus Hermeticum, in which God is called 'archetypical light', Dionysius the Areopagite, who often used the word, Saint-Augustine, which expressed similar concepts (though without using the term), or Kant, outlining archetypes as the imagination and fantasy counterparts of Kant's logical Categories of reason. 
+
+However, the initial influence might have been less that of such major philosophers and noble academic developments, but could be actually related to an interest in, or an inclination for, the esoteric and the occult, quite popular in the intellectual milieu of Jung's time.
+
+
+
+```{r, echo = FALSE, fig.cap="Carl Jung (1875 - 1961)."}
+knitr::include_graphics("img/jung.jpg")
+```
+
 
 ### Historical and philosophical context
 
@@ -32,19 +47,17 @@ In summary, although not named nor formally defined as a psychological concept, 
 
 
 
-
-
 ### The Collective Unconscious
 
+It is in this troubled context that the Swiss psychiatrist Carl Gustav Jung gave to "archetypes" its modern usage in 1919. This concept will be come one of the most important of Jungian's approach [@roesler2012archetypes], marking the split with the Freudian's approach. Indeed, archetypes are inextricably linked to the key concept of Jungian psychology, namely the collective (called first "phylogenetic") unconscious.
 
-It is in this troubled context that the Swiss psychiatrist Carl Gustav Jung gave to "archetypes" its modern usage in 1919. This concept will be come one of the most important of psychoanalysis [@roesler2012archetypes], marking the split with the Freudian approach and what will become Jung's independent stream of so-called "depth psychology". Indeed, archetypes are inextricably linked to the key concept of Jungian psychology, namely the collective (called first "phylogenetic") unconscious.
+Jung is indeed referred as the father of the collective unconscious for his detailed formulation of it [despite the fact that, as mentioned above, the idea was already "in the air" at that time; @shamdasani2003cult]. It is the central concept that sets apart the Jungian approach, i.e., the "analytic psychology" (or, more romantically, "depth psychology"), from the Freudian "psychoanalysis". The concept of collective unconscious ties the study of the mind to the analysis of cultures, societies, religions, myths and stories, and establishes a parallel between the two, enabling to understand one through the study of the other.
 
 The Jungian simplified conceptualisation of the mind is often presented as a sphere [@cann1986jungian]. Below the surface of consciousness lies the *personal* unconscious (consisting of forgotten information, subliminal perceptions, and other elements that are incompatible with one's conscious attitude). At the core of this sphere lies the *collective* unconscious, shared by all humans, filled with instincts, and archetypes. 
 
 <!-- TO IMPROVE -->
 
 ### Jung's Definition(s)
-
 
 What exactly are archetypes? Interestingly, we do not find a consistent specific definition of archetypes formulated by Jung. Originally named "primordial images" (a term he borrowed from the historian of art Jacob Burckhardt), Jung understood archetypes as universal and archaic patterns, or images, that derive from the collective unconscious, itself seen as the psychic counterpart of bodily instincts [@feist2009theories]. These archetypes are supposedly responsible for the innate tendency to experience the world in a certain way. They are "universal patterns producing meaning and guiding development" [@roesler2012archetypes].
 
@@ -58,9 +71,6 @@ In 1912, at 36, Jung published his work *Psychology of the Unconscious* (later r
 Jung arrived at the idea of the universality of archetypes after realizing the large number of participants presenting similar "complexes" (i.e., partially repressed, yet highly influential emotional cluster of charged psychic material such as thoughts, feelings, and behaviours, that organises experience, perception, and affect around a central theme). This led Jung to assume the existence of a prototypical pattern behind these similar complexes that would be shared by all human beings. Another stream of evidence came as from Jung's experience with psychotic patients in the Burghölzli hospital in Zurich, where he saw in many of the patients' "fantasies" motifs from ancient mythology. The most famous case being the so-called *Solar Phallus Man*, a patient suffering from paranoid dementia, who reported in 1901 (note that Jung kept changing the dates of this story, as well as hiding the fact that this man was the patient of another psychiatrist) a striking hallucination in which the sun had an upright tail (*"similar to an erect penis,"*, Jung added), which moved back and forth, causing the wind to blow. It is only years later, as Jung became aware of a similar symbol in a recently translated Hellenistic text (The "Mithras Liturgy", part of the *Greek Magical Papyri*), which describes a wind originating from a pipe or tube hanging downright from the disc of the sun. Jung assumed that these two symbols were the same, and since the patient was unlikely to be familiar with this text [or so claimed Jung; see @noll1997jung for a detailed description of Jung's falsifications and lies], its the only possible origin was the collective unconscious.
 
 
-```{r, echo = FALSE, fig.cap="Carl Jung (1875 - 1961)."}
-knitr::include_graphics("img/jung.jpg")
-```
 
 In his later life, inspired by oriental philosophies, Jung used the term *unus mundus* to describe the unitary reality which underlay all manifest phenomena. Through it, he expanded the notion of archetypes to the physical world itself, defining "psychoid" archetypes (the non-psychic aspect of the archetype) as fundamental principles of matter and energy, and mediators of the *unus mundus*.
 
@@ -106,9 +116,9 @@ Jung also referred to as archetypes in the context of the structure of the psych
 
 
 
+<!-- Transition -->
 
-
-
+In the following sections, I will describe the work of some of the representative authors in regards to their contribution to the concept of archetypes. Starting with so-called "neojungian" authors, which contributed to the overall enrichment and acceptance of the notion of archetypes (and were often contemporaries of Jung), the next chapter will focus on "postjungian authors", which gave archetypes their modern definition(s) and usage(s). This listing is by any means exhaustive, but aims at outlining its general evolution and provide the reader with a better understanding of the current state-of-art, and its genesis.
 
 
 

@@ -2,7 +2,7 @@
 
 ***Warning:* This is a work in progress, i.e., currently just a collection of unstructured information.**
 
-The main archetypes discussed in this chapter reffered to as "axial archetypes", as they emerge from to the axes that structure our mental system. As this system grows and complexifies, its dimensionality increases, creating new planes and providing more coordinates to navigate in this space. As a result of the densification of this matrix, archetypes become more subtler, fine-grained and ultimately fading into the unicity that is characterising our identity.
+The main archetypes discussed in this chapter referred to as "axial archetypes", as they emerge from to the axes that structure our mental system. As this system grows and complexifies, its dimensionality increases, creating new planes and providing more coordinates to navigate in this space. As a result of the densification of this matrix, archetypes become more subtler, fine-grained and ultimately fading into the unicity that is characterising our identity.
 
 Thus, archetypes are usually paired (as they are the two spaces created separated by a line), creating a symmetric and hierarchical structure. Importantly, they can be identified, and grouped, relative to their causing axis, which is often an important distinction that the organism has to learn in order to adapt.
 
@@ -14,12 +14,18 @@ Existing theories and models often associate archetpyes with specific genders, n
 
 Moreover, another limitation of this pseudo-sexualised perspective is that it is, to some extent, anthropomorphic or primatomorphic (or at least mammalomorphic). Indeed, in these classes and families, males often endorse the role of protection, fighting for females through which reproduction can be achieved. However, other taxa of animals, with different reproduction systems, might have these roles changed, or reversed. For instance, in ants, the ruler and the warriors are Females, whereas the males are typically exhibiting roles that would be anthropomorphically labeled as feminine. Thus, while we will keep using Masculine and Feminine in their primatal sense, these adjectives may not be universally relevant.
 
+### The Physical World is Chaos
+
+Theseus' ship thought experiment (EXPALAIN) underlines the fact that the physical world is, at the fundamental level, chaotic and uniform. There is no "objects" in themselves. And yet we create meaning, which is necessary to life. The primordial feature of this given meaning is the distinction between external and the internal world, allowing to organism to exist and function (and life itself to emerge, according to the Free Energy principle).
+
 
 ## The Two Worlds
 
+
+
+
 The Outside *vs.* the Inside, or the external and internal worlds (or Self vs. non-Self), is the first axis differenciating our proto-experience.
 
-Transcendal vs. Natural.
 
 The newborn is a fragile and dependent entity, which safety depends on the *Mother* and the *Father*. These are the first 
 
@@ -27,7 +33,7 @@ Both are vectors of **protection**. The father protects from the outside world, 
 
 These two primordial archetypes will create the primordial axis, external vs. internal worlds.
 
-A secondary axis could be the real vs. the unreal.
+
 
 <!-- need and goal, the mother needs protection and achieves creation (by being turned toward the internal) , the father achieves protection and goes toward the external unknown. image of the two serpents, one facing the outside as a ring of protection, the other facing the inside -->
 
@@ -35,9 +41,18 @@ A secondary axis could be the real vs. the unreal.
 
 <!-- mother est aussi le matériel, le temporel, c'est la nature. hence mother nature as one of the earliest divinity. father est le divin, l'éternel, le transcendant. hence dieux qui a souvent une figure masculine.  -->
 
+
+## Natural vs. Supernatural
+
+Transcendal vs. Natural.
+A secundary axis could be the real vs. the unreal.
+
+
 ```{r, echo = FALSE, fig.cap="The Primordial Axis."}
 knitr::include_graphics("img/protection.png")
 ```
+
+
 
 
 ## Known *vs.* Unknown
@@ -48,6 +63,9 @@ Knower of beyond vs. knower of within.
 
 The child wants to know, and understand this world around and within him. From the Mother, master of nature, stems out the *Feminine Knower*. From the Father, master of the transcendent, stems out the *Masculine Knower*.
 
+## Below and Above 
+
+The two waters. Waters (blue) the sky and waters from below the earth (as water appears wherever we dig deep enough, thus suggesting that land sits on water).
 
 ## Time
 
@@ -80,6 +98,11 @@ knitr::include_graphics("img/archetypes.png")
 ```
 
 ## The Serpent
+
+> _The Serpent shows the way to hidden things._
+>
+> `r tufte::quote_footer('--- C. G. Jung')`
+
 
 The serpent represent the cyclical nature of existence. A mother creates a child, the child becomes the mother, and the cycle restarts.
 
