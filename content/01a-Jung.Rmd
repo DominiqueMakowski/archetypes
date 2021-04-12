@@ -5,16 +5,17 @@
 > `r tufte::quote_footer('--- C. G. Jung (1960)')`
 
 The idea of ancient and primitive entities and forces guiding men and civilizations is by any means new, and was certainly not unpopular in the early 20th century. Nonetheless, C. G. Jung (1875 - 1961) was the first to define, describe and popularize a psychological concept that will be the basis for archetypes as they are commonly understood today. 
-Jung's theory, through its interesting ideas as well as limitations, is thus a relevant starting point to understand how archetypes evolved from inaccessible entities which can be used to investigate the hidden core of Humanity, to stereotypical images, used predominantly to achieve individual goals (for instance well-being, growth or success).
+Jung's theory, with its interesting ideas as well as limitations, is thus a relevant starting point to understand how archetypes evolved from inaccessible entities reflecting the hidden core of Humanity, to stereotypical images, used predominantly to achieve individual goals (for instance well-being, growth or success).
 
 
 
 ## C. G. Jung (1875 - 1961) and his Archetypes
 
 
-The archetypes are a complex and proteiform concept in Jung's work, with multiple, sometimes exclusive and conflicting definitions. They are, at the same time, the product of his investigations (through the analysis of texts, stories, or mental productions of patients), as well as a tool used to give meaning to obscure patterns and objects. Importantly, this concept does not emerge *ex nihilo*. Indeed, older roots, sources of inspiration and usages of the word 'archetypes' can be traced in earlier philosophical or historical works.  
+The archetypes are a complex and proteiform concept in Jung's own work, with multiple, sometimes exclusive and conflicting definitions. They are, at the same time, the product of his investigations (through the analysis of texts, stories, or mental productions of patients), as well as a tool used to give meaning to obscure patterns and objects. 
 
-Jung himself, later in his career, attempted at reconstructing the history of the usage of the word 'archetype' [@spineto2008notion]. Notably, he emphasizes Plato's *Idea* as the origin or philosophical basis for his theory of archetypes.
+
+Importantly, this concept does not emerge in Jung's mind *ex nihilo*. Indeed, older roots, sources of inspiration and usages of the word 'archetypes' can be traced in earlier philosophical or historical works. Jung himself, later in his career, attempted at reconstructing the history of the usage of the word 'archetype' [@spineto2008notion]. Notably, he emphasizes Plato's *Idea* as the origin or philosophical basis for his theory of archetypes.
 
 > 'Archetype' is an explanatory paraphrase of the Platonic eidos. For our purposes this term is apposite and helpful, because it tells us that so far as the collective unconscious contents are concerned we are dealing with archaicor - I would say - primordial types, that is, with universal images that have existed since the remotest times (Jung, 1969, pp. 4–5).
 

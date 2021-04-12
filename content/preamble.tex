@@ -1,5 +1,6 @@
 \usepackage{booktabs}
 \usepackage{amsthm}
+\usepackage{fancyhdr}
 \makeatletter
 \def\thm@space@setup{%
   \thm@preskip=8pt plus 2pt minus 4pt
@@ -8,3 +9,12 @@
 \makeatother
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
+
+
+%\pagestyle{fancy}
+% center of header
+%\fancyhead[CO,CE]{Your Document Header}
+% center of footer
+%\fancyfoot[CO,CE]{And this is a fancy footer}
+% page number on the left of even pages and right of odd pages
+%\fancyfoot[LE,RO]{\thepage}
